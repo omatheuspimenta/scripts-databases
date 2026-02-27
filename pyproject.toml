@@ -1,0 +1,19 @@
+[project]
+name = "sugarcane-rna-metadata"
+version = "0.1.0"
+description = "Metadata for sugarcane RNA-seq experiments, filtered and processed for research purposes."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas",
+    "requests",
+    "rich",
+    "numpy",
+    "regex",
+    "selenium",
+    "webdriver-manager",
+    "jupyter"
+]
+
+[tool.uv]
+managed = true

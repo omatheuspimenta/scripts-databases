@@ -1,0 +1,64 @@
+{
+  "name": "sugarcane-rna-metadata",
+  "title": "Sugarcane RNA-seq Metadata Scripts and Databases",
+  "description": "Metadata for sugarcane RNA-seq experiments, filtered and processed for research purposes.",
+  "profile": "tabular-data-package",
+  "licenses": [
+    {
+      "name": "MIT",
+      "path": "LICENSE",
+      "title": "MIT License"
+    }
+  ],
+  "resources": [
+    {
+      "path": "raw/databases_rna_sugarcane.csv",
+      "name": "databases_rna_sugarcane",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "raw/sugarcane_omics_metadata_cleaned.csv",
+      "name": "sugarcane_omics_metadata_cleaned",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "raw/sugarcane_rna_complete.csv",
+      "name": "sugarcane_rna_complete",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "raw/sugarcane_rna_filtered.csv",
+      "name": "sugarcane_rna_filtered",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "raw/sugarcane_rna_relevant_filtered.csv",
+      "name": "sugarcane_rna_relevant_filtered",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "raw/sugarcane_with_pmid.csv",
+      "name": "sugarcane_with_pmid",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    },
+    {
+      "path": "raw/sugarcane_with_pmid_with_articles_with_dois.csv",
+      "name": "sugarcane_with_pmid_with_articles_with_dois",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8"
+    }
+  ]
+}
