@@ -98,7 +98,7 @@ pip install pandas selenium webdriver-manager rich regex ... requests
 > We strong recommend to use `uv` to deal with all dependencies.
 
 > [!NOTE]
-> Note: Selenium scripts require a compatible web driver (e.g., ChromeDriver), which is managed automatically by `webdriver-manager` in most cases.
+> Selenium scripts require a compatible web driver (e.g., ChromeDriver), which is managed automatically by `webdriver-manager` in most cases.
 
 ## Citation
 
