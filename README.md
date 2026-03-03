@@ -52,6 +52,13 @@ These notebooks are used for interactive data processing and visualization:
 - `load_rna.ipynb`: Loading and initial preparation of RNA-seq data.
 - `load_rna_dois.ipynb`: Exploratory analys in the dataset with DOIs.
 
+### Bash scripts
+
+These scripts are used to run the `nf-core` pipelines and compress the files.
+
+- `pipeline_rnaseq_salmon.sh`: run the `nf-core` `fetchngs` and `rnaseq` using a `.csv` file with SRA IDs.
+
+
 ## Figures (`figures/`)
 
 - `figure_panel.png`: A multi-panel visualization of the sugarcane metadata.
