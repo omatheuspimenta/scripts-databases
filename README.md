@@ -57,7 +57,8 @@ These notebooks are used for interactive data processing and visualization:
 These scripts are used to run the `nf-core` pipelines and compress the files.
 
 - `pipeline_rnaseq_salmon.sh`: run the `nf-core` `fetchngs` and `rnaseq` using a `.csv` file with SRA IDs.
-
+- `compress_runs.sh`: extract the information from the complete results and save into a `.tar.xz` file.
+- `extract_libtype.sh`: get the libType from Salmon output.
 
 ## Figures (`figures/`)
 
