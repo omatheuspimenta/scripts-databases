@@ -1,0 +1,55 @@
+Ontology Term,Name,Ontology,Node Degree
+PO:0025034,Leaf,PO (anatomy),96
+UO_0000035,months,UO,35
+PECO:0001062,Control,PECO,33
+PO:0009047,Stem,PO (anatomy),21
+PO:0009005,Root,PO (anatomy),21
+PO:0007134,Vegetative,PO (stage),19
+PECO:0007404,Drought,PECO,18
+PO:0008037,Seedling,PO (stage),12
+PECO:0007357,Biotic Plant,PECO,12
+PO:0020142,Stem Internode,PO (anatomy),11
+UO_0000033,days,UO,10
+PECO:0007189,Chemical,PECO,7
+PO:0000055,Bud,PO (anatomy),7
+PECO:0007241,Plant Nutrient,PECO,6
+TO:0000439,Smut Susceptible,TO,5
+TO:0000276,Drought Tolerant,TO,4
+PECO:0007174,Cold Temperature,PECO,4
+UO_0000032,hours,UO,4
+PO:0009013,Meristem,PO (anatomy),3
+PO:0007073,Tillering,PO (stage),3
+PO:0009046,Flower,PO (anatomy),3
+PO:0004709,Auxiliary Bud,PO (anatomy),3
+PO:0007130,Reproductive,PO (stage),2
+PO:0007089,Elongation,PO (stage),2
+PECO:0007185,Salt,PECO,2
+TO:0000011,Nitrogen sensitive,TO,2
+TO:0000148,Viral Disease Response,TO,2
+PO:0025178,Stem Epidermis,PO (anatomy),2
+TO:0000188,Drought Sensitive,TO,2
+TO:0000315,Bacterial Disease Response,TO,2
+PO:0009011,Plant Structure,PO (anatomy),1
+PO:0020141,Stem Node,PO (anatomy),1
+PO:0020040,Leaf Base,PO (anatomy),1
+PECO:0007050,Soil Texture,PECO,1
+PECO:0007333,Insect Plant,PECO,1
+PECO:0007191,Abiotic Plant,PECO,1
+PO:0007520,Rooting,PO (stage),1
+PECO:0007078,Light Quantity,PECO,1
+TO:0000303,Low temperature stress response,TO,1
+PO:0025223,Vegetative Shoot Apex,PO (anatomy),1
+TO:0000384,Susceptibility to Pratylenchus zeae,TO,1
+PO:0020137,Leaf Apex,PO (anatomy),1
+PECO:0007173,High Temperature,PECO,1
+PECO:0001037,Oxidative Stress,PECO,1
+PO:0020121,Lateral Root,PO (anatomy),1
+PO:0006109,Pith,PO (anatomy),1
+TO:0000482,Chemical stress response,TO,1
+TO:0000328,Sucrose content,TO,1
+TO:0000326,Leaf color,TO,1
+TO:0000261,Highly Susceptible to S. frugiperda,TO,1
+"PECO:0007189,PECO:0007165",Chemical + Plant Growth Hormone,PECO,0
+"PECO:0007357,PECO:0007404",Biotic + Drought,PECO,0
+ PECO:0001062,Control,PECO,0
+"PECO:0007189,PECO:0007404",Chemical + Drought,PECO,0
