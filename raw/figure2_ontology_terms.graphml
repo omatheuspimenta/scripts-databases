@@ -1,0 +1,425 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d2" for="node" attr.name="n_projects" attr.type="long" />
+  <key id="d1" for="node" attr.name="source" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Plant Nutrient">
+      <data key="d0">Plant Nutrient</data>
+      <data key="d1">PECO</data>
+      <data key="d2">6</data>
+    </node>
+    <node id="Meristem">
+      <data key="d0">Meristem</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="Drought Tolerant">
+      <data key="d0">Drought Tolerant</data>
+      <data key="d1">TO</data>
+      <data key="d2">4</data>
+    </node>
+    <node id="Seedling">
+      <data key="d0">Seedling</data>
+      <data key="d1">PO (stage)</data>
+      <data key="d2">12</data>
+    </node>
+    <node id="Vegetative">
+      <data key="d0">Vegetative</data>
+      <data key="d1">PO (stage)</data>
+      <data key="d2">19</data>
+    </node>
+    <node id="Auxiliary Bud">
+      <data key="d0">Auxiliary Bud</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="Bud">
+      <data key="d0">Bud</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">7</data>
+    </node>
+    <node id="Tillering">
+      <data key="d0">Tillering</data>
+      <data key="d1">PO (stage)</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="Drought">
+      <data key="d0">Drought</data>
+      <data key="d1">PECO</data>
+      <data key="d2">16</data>
+    </node>
+    <node id="months">
+      <data key="d0">months</data>
+      <data key="d1">UO</data>
+      <data key="d2">35</data>
+    </node>
+    <node id="Leaf">
+      <data key="d0">Leaf</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">96</data>
+    </node>
+    <node id="Stem">
+      <data key="d0">Stem</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">21</data>
+    </node>
+    <node id="Smut Susceptible">
+      <data key="d0">Smut Susceptible</data>
+      <data key="d1">TO</data>
+      <data key="d2">5</data>
+    </node>
+    <node id="Root">
+      <data key="d0">Root</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">21</data>
+    </node>
+    <node id="Biotic Plant">
+      <data key="d0">Biotic Plant</data>
+      <data key="d1">PECO</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="Flower">
+      <data key="d0">Flower</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">3</data>
+    </node>
+    <node id="Chemical">
+      <data key="d0">Chemical</data>
+      <data key="d1">PECO</data>
+      <data key="d2">5</data>
+    </node>
+    <node id="hours">
+      <data key="d0">hours</data>
+      <data key="d1">UO</data>
+      <data key="d2">4</data>
+    </node>
+    <node id="Control">
+      <data key="d0">Control</data>
+      <data key="d1">PECO</data>
+      <data key="d2">33</data>
+    </node>
+    <node id="days">
+      <data key="d0">days</data>
+      <data key="d1">UO</data>
+      <data key="d2">10</data>
+    </node>
+    <node id="Stem Internode">
+      <data key="d0">Stem Internode</data>
+      <data key="d1">PO (anatomy)</data>
+      <data key="d2">11</data>
+    </node>
+    <node id="Cold Temperature">
+      <data key="d0">Cold Temperature</data>
+      <data key="d1">PECO</data>
+      <data key="d2">4</data>
+    </node>
+    <edge source="Plant Nutrient" target="Control">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Root">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Cold Temperature">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Drought">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Leaf">
+      <data key="d3">5</data>
+    </edge>
+    <edge source="Plant Nutrient" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Vegetative">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Plant Nutrient" target="Stem">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Plant Nutrient" target="months">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Meristem" target="Control">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Meristem" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Meristem" target="hours">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Meristem" target="Biotic Plant">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Meristem" target="Smut Susceptible">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Meristem" target="months">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Drought Tolerant" target="Drought">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Drought Tolerant" target="Root">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Drought Tolerant" target="months">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Drought Tolerant" target="Control">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Drought Tolerant" target="Leaf">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Drought Tolerant" target="Vegetative">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Seedling" target="Control">
+      <data key="d3">5</data>
+    </edge>
+    <edge source="Seedling" target="Root">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Seedling" target="Leaf">
+      <data key="d3">11</data>
+    </edge>
+    <edge source="Seedling" target="Bud">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Seedling" target="Vegetative">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Seedling" target="Cold Temperature">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Seedling" target="Biotic Plant">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Seedling" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Seedling" target="Stem">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Seedling" target="Drought">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Vegetative" target="Stem">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Vegetative" target="Bud">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Vegetative" target="Leaf">
+      <data key="d3">14</data>
+    </edge>
+    <edge source="Vegetative" target="Root">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Vegetative" target="Stem Internode">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Vegetative" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Vegetative" target="Drought">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Vegetative" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Vegetative" target="Control">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Auxiliary Bud" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Auxiliary Bud" target="months">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Bud" target="Biotic Plant">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Bud" target="Control">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Bud" target="Smut Susceptible">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Bud" target="hours">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Bud" target="Leaf">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Bud" target="Root">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Bud" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Tillering" target="Drought">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Tillering" target="Control">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Tillering" target="Leaf">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Tillering" target="Stem Internode">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Drought" target="Leaf">
+      <data key="d3">12</data>
+    </edge>
+    <edge source="Drought" target="months">
+      <data key="d3">6</data>
+    </edge>
+    <edge source="Drought" target="Control">
+      <data key="d3">10</data>
+    </edge>
+    <edge source="Drought" target="days">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Drought" target="Root">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Drought" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Drought" target="Cold Temperature">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="months" target="Leaf">
+      <data key="d3">22</data>
+    </edge>
+    <edge source="months" target="Control">
+      <data key="d3">9</data>
+    </edge>
+    <edge source="months" target="Root">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="months" target="Stem">
+      <data key="d3">10</data>
+    </edge>
+    <edge source="months" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="months" target="Stem Internode">
+      <data key="d3">5</data>
+    </edge>
+    <edge source="months" target="Biotic Plant">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="months" target="Smut Susceptible">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Leaf" target="Control">
+      <data key="d3">20</data>
+    </edge>
+    <edge source="Leaf" target="days">
+      <data key="d3">7</data>
+    </edge>
+    <edge source="Leaf" target="Root">
+      <data key="d3">8</data>
+    </edge>
+    <edge source="Leaf" target="Stem">
+      <data key="d3">11</data>
+    </edge>
+    <edge source="Leaf" target="Cold Temperature">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Leaf" target="Chemical">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Leaf" target="Stem Internode">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Leaf" target="Biotic Plant">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Leaf" target="Smut Susceptible">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Stem" target="Root">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Stem" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Stem" target="Biotic Plant">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Stem" target="Control">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Smut Susceptible" target="Biotic Plant">
+      <data key="d3">4</data>
+    </edge>
+    <edge source="Smut Susceptible" target="Control">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Smut Susceptible" target="hours">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Root" target="Control">
+      <data key="d3">8</data>
+    </edge>
+    <edge source="Root" target="Biotic Plant">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Root" target="Chemical">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Root" target="hours">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Root" target="Stem Internode">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Biotic Plant" target="Control">
+      <data key="d3">9</data>
+    </edge>
+    <edge source="Biotic Plant" target="hours">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Chemical" target="Cold Temperature">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Chemical" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Chemical" target="Control">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="Chemical" target="Stem Internode">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="hours" target="Control">
+      <data key="d3">2</data>
+    </edge>
+    <edge source="hours" target="days">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="Control" target="days">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Control" target="Cold Temperature">
+      <data key="d3">3</data>
+    </edge>
+    <edge source="Control" target="Stem Internode">
+      <data key="d3">1</data>
+    </edge>
+    <edge source="days" target="Cold Temperature">
+      <data key="d3">2</data>
+    </edge>
+  </graph>
+</graphml>

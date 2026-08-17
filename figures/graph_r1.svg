@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentScriptType="text/ecmascript"
+   width="1093.9453"
+   zoomAndPan="magnify"
+   contentStyleType="text/css"
+   viewBox="-542.758118 -525.000000 1093.945313 1080.000000"
+   height="1080.0"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg338"
+   sodipodi:docname="graph_r1.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs342" />
+  <sodipodi:namedview
+     id="namedview340"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.38842593"
+     inkscape:cx="229.12991"
+     inkscape:cy="638.47437"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="1440"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg338" />
+  <rect
+     style="opacity:0.7;fill:#0072b2;fill-opacity:1;stroke:none;stroke-width:11.6585;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+     id="rect1181"
+     width="30.60285"
+     height="19.730783"
+     x="-535.90015"
+     y="425.18192" />
+  <rect
+     style="opacity:0.7;fill:#e69f00;fill-opacity:1;stroke:none;stroke-width:11.6585;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+     id="rect1379"
+     width="30.60285"
+     height="19.730783"
+     x="-535.90015"
+     y="451.082" />
+  <rect
+     style="opacity:0.7;fill:#009e73;fill-opacity:1;stroke:none;stroke-width:11.6585;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+     id="rect1381"
+     width="30.60285"
+     height="19.730783"
+     x="-535.90015"
+     y="476.98209" />
+  <rect
+     style="opacity:0.7;fill:#cc79a7;fill-opacity:1;stroke:none;stroke-width:11.6585;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+     id="rect1383"
+     width="30.60285"
+     height="19.730783"
+     x="-535.90015"
+     y="502.8822" />
+  <rect
+     style="opacity:0.7;fill:#d55e00;fill-opacity:1;stroke:none;stroke-width:11.6585;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
+     id="rect1385"
+     width="30.60285"
+     height="19.730783"
+     x="-535.90015"
+     y="528.78223" />
+  <text
+     xml:space="preserve"
+     style="font-size:14.0271px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.350677"
+     x="-544.56366"
+     y="404.80966"
+     id="text4280"
+     transform="scale(0.92112837,1.085625)"><tspan
+       sodipodi:role="line"
+       id="tspan4278"
+       x="-544.56366"
+       y="404.80966"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Go Medium';-inkscape-font-specification:'Go Medium,  Medium';stroke-width:0.350677">PO (anatomy)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.0271px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.350677"
+     x="-544.56366"
+     y="429.66013"
+     id="text12094"
+     transform="scale(0.92112838,1.085625)"><tspan
+       sodipodi:role="line"
+       id="tspan12092"
+       x="-544.56366"
+       y="429.66013"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Go Medium';-inkscape-font-specification:'Go Medium,  Medium';stroke-width:0.350677">PECO</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.0271px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.350677"
+     x="-544.56366"
+     y="452.43866"
+     id="text12098"
+     transform="scale(0.92112838,1.085625)"><tspan
+       sodipodi:role="line"
+       id="tspan12096"
+       x="-544.56366"
+       y="452.43866"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Go Medium';-inkscape-font-specification:'Go Medium,  Medium';stroke-width:0.350677">PO (stage)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.0271px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.350677"
+     x="-544.51569"
+     y="477.37476"
+     id="text12102"
+     transform="scale(0.92112838,1.085625)"><tspan
+       sodipodi:role="line"
+       id="tspan12100"
+       x="-544.51569"
+       y="477.37476"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Go Medium';-inkscape-font-specification:'Go Medium,  Medium';stroke-width:0.350677">UO</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:14.0271px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.350677"
+     x="-543.6048"
+     y="501.23199"
+     id="text12106"
+     transform="scale(0.92112838,1.085625)"><tspan
+       sodipodi:role="line"
+       id="tspan12104"
+       x="-543.6048"
+       y="501.23199"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Go Medium';-inkscape-font-specification:'Go Medium,  Medium';stroke-width:0.350677">TO</tspan></text>
+  <g
+     id="g1523"
+     transform="translate(-0.20884737,0.86279726)">
+    <g
+       id="edges-3">
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Control"
+         d="M 484.68777,-6.0159 A 450.53399,450.53399 0 0 1 206.54074,-425.32294"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1005" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Root"
+         d="M 503.12866,16.151381 A 346.17916,346.17916 0 0 1 347.8494,365.82443"
+         stroke="#738859"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1007" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Chemical"
+         d="M 485.74478,-8.212429 A 346.17916,346.17916 0 0 1 324.38278,-362.20056"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1009" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Cold_Temperature"
+         d="M 483.97552,-3.724498 A 545.71729,545.71729 0 0 1 72.467094,-479.48236"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1011" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Drought"
+         d="M 489.19064,-12.402148 A 118.59569,118.59569 0 0 1 471.24396,-121.34744"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1013" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Leaf"
+         d="M 498.59393,16.391417 A 545.71729,545.71729 0 0 1 129.01082,479.00528"
+         stroke="#738859"
+         stroke-width="3.90476"
+         stroke-opacity="0.8"
+         id="path1015" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_days"
+         d="M 483.89035,3.336931 A 758.02665,758.02665 0 0 1 -318.43774,-361.83676"
+         stroke="#d98c53"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1017" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Vegetative"
+         d="M 488.2619,11.527043 A 824.85114,824.85114 0 0 1 -459.64761,151.50728"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1019" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_Stem"
+         d="M 500.88864,16.427595 A 450.53399,450.53399 0 0 1 229.70456,445.96851"
+         stroke="#738859"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1021" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Plant_Nutrient id_months"
+         d="M 483.60577,-1.373076 A 629.79129,629.79129 0 0 1 -63.985348,-465.28256"
+         stroke="#d98c53"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1023" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Meristem id_Control"
+         d="m -328.3779,362.90476 a 824.85119,824.85119 0 0 1 508.60951,-806.9376"
+         stroke="#738859"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1025" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Meristem id_days"
+         d="m -336.2868,365.76846 a 629.79129,629.79129 0 0 1 -1.9599,-728.77411"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1027" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Meristem id_hours"
+         d="m -334.48978,364.6398 a 701.04459,701.04459 0 0 1 115.94512,-808.3966"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1029" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Meristem id_Biotic_Plant"
+         d="M -324.12195,363.2442 A 824.85114,824.85114 0 0 1 402.30093,-268.82089"
+         stroke="#738859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1031" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Meristem id_Smut_Susceptible"
+         d="M -339.29547,368.69769 A 450.53399,450.53399 0 0 1 -485.07425,-125.81357"
+         stroke="#6a6859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1033" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Meristem id_months"
+         d="M -332.54575,363.77399 A 758.02665,758.02665 0 0 1 -95.205673,-476.17712"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1035" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought_Tolerant id_Drought"
+         d="m -406.96841,-277.6142 a 758.02665,758.02665 0 0 1 871.46383,121.89252"
+         stroke="#dd7e00"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1037" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought_Tolerant id_Root"
+         d="M -405.19229,-269.08481 A 824.85114,824.85114 0 0 1 322.07889,354.77695"
+         stroke="#6a6859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1039" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought_Tolerant id_months"
+         d="m -414.90561,-284.70856 a 346.17919,346.17919 0 0 1 313.27649,-211.0635"
+         stroke="#d06b53"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1041" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought_Tolerant id_Control"
+         d="m -411.18381,-282.59152 a 545.71724,545.71724 0 0 1 590.976,-181.81287"
+         stroke="#dd7e00"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1043" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought_Tolerant id_Leaf"
+         d="M -406.17017,-264.77451 A 758.02665,758.02665 0 0 1 73.12001,434.94284"
+         stroke="#6a6859"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1045" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought_Tolerant id_Vegetative"
+         d="m -413.49951,-256.5744 a 346.17916,346.17916 0 0 1 -50.68793,380.8542"
+         stroke="#6a7e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1047" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Control"
+         d="M -493.00278,-18.045742 A 701.04459,701.04459 0 0 1 178.23013,-456.32803"
+         stroke="#739e39"
+         stroke-width="3.90476"
+         stroke-opacity="0.8"
+         id="path1049" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Root"
+         d="M -481.04001,-3.889498 A 758.02665,758.02665 0 0 1 315.76209,357.23502"
+         stroke="#008892"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1051" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Leaf"
+         d="M -480.71646,1.65984 A 629.79129,629.79129 0 0 1 55.677525,436.94202"
+         stroke="#008892"
+         stroke-width="6.7619"
+         stroke-opacity="0.8"
+         id="path1053" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Bud"
+         d="M -481.15939,4.431901 A 545.71729,545.71729 0 0 1 -72.61232,478.03787"
+         stroke="#008892"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1055" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Vegetative"
+         d="m -487.46316,14.745762 a 118.59569,118.59569 0 0 1 16.67059,105.215418"
+         stroke="#009e73"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1057" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Cold_Temperature"
+         d="M -495.6127,-18.851036 A 629.79129,629.79129 0 0 1 55.726582,-493.63028"
+         stroke="#739e39"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1059" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Biotic_Plant"
+         d="M -488.22827,-15.363461 A 799.57745,799.57745 0 0 1 403.33188,-276.56314"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1061" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Chemical"
+         d="M -490.52332,-16.876091 A 758.02665,758.02665 0 0 1 311.79556,-381.11856"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1063" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Stem"
+         d="M -480.67825,-1.13157 A 701.04459,701.04459 0 0 1 199.06728,432.73672"
+         stroke="#008892"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1065" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Seedling id_Drought"
+         d="M -486.16663,-13.536905 A 824.85114,824.85114 0 0 1 460.9393,-150.84462"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1067" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Stem"
+         d="M -457.44464,136.41402 A 629.79129,629.79129 0 0 1 195.97357,434.2135"
+         stroke="#008892"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1069" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Bud"
+         d="M -457.1087,143.04024 A 450.53399,450.53399 0 0 1 -75.052826,478.42935"
+         stroke="#008892"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1071" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Leaf"
+         d="M -457.03467,139.6964 A 545.71729,545.71729 0 0 1 47.180466,439.90979"
+         stroke="#008892"
+         stroke-width="8.19048"
+         stroke-opacity="0.8"
+         id="path1073" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Root"
+         d="M -458.31921,133.24609 A 701.04459,701.04459 0 0 1 312.91968,359.12408"
+         stroke="#008892"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1075" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Stem_Internode"
+         d="m -461.36072,127.48122 a 799.57745,799.57745 0 0 1 925.87787,2.24141"
+         stroke="#008892"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1077" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Chemical"
+         d="M -471.51593,119.66595 A 799.57745,799.57745 0 0 1 311.49362,-378.8692"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1079" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Drought"
+         d="m -465.88687,122.83556 a 833.3333,833.3333 0 0 1 925.59848,-270.9047"
+         stroke="#739e39"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1081" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_days"
+         d="m -487.17306,119.37112 a 450.53399,450.53399 0 0 1 145.24078,-485.94195"
+         stroke="#668b8d"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1083" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Vegetative id_Control"
+         d="M -474.59952,118.71442 A 758.0266,758.0266 0 0 1 178.31074,-452.16409"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1085" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Auxiliary_Bud id_days"
+         d="M -218.2097,444.10602 A 701.04459,701.04459 0 0 1 -336.04462,-361.6304"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1087" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Auxiliary_Bud id_months"
+         d="M -214.78436,441.59036 A 799.57745,799.57745 0 0 1 -92.317772,-472.9675"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1089" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_Biotic_Plant"
+         d="M -72.192055,478.0069 A 758.02665,758.02665 0 0 1 403.4722,-263.70178"
+         stroke="#738859"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1091" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_Control"
+         d="M -76.926941,478.98831 A 824.85119,824.85119 0 0 1 184.38255,-436.72876"
+         stroke="#738859"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1093" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_Smut_Susceptible"
+         d="M -86.949623,488.79379 A 629.79129,629.79129 0 0 1 -480.698,-124.9269"
+         stroke="#6a6859"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1095" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_hours"
+         d="M -83.016045,482.8201 A 799.57745,799.57745 0 0 1 -215.00853,-441.1615"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1097" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_Leaf"
+         d="M -56.918091,485.74274 A 118.59569,118.59569 0 0 1 15.611968,472.22366"
+         stroke="#0072b2"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1099" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_Root"
+         d="M -60.69178,481.59604 A 346.17913,346.17913 0 0 1 304.95166,370.33441"
+         stroke="#0072b2"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1101" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Bud id_days"
+         d="M -84.610039,484.62299 A 758.02665,758.02665 0 0 1 -333.6622,-360.57596"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1103" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Tillering id_Drought"
+         d="M -413.33047,257.21454 A 824.85119,824.85119 0 0 1 458.88989,-145.14183"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1105" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Tillering id_Control"
+         d="M -419.4299,255.36822 A 799.57745,799.57745 0 0 1 178.9805,-448.03656"
+         stroke="#739e39"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1107" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Tillering id_Leaf"
+         d="M -405.92117,267.3631 A 450.53399,450.53399 0 0 1 39.005459,444.25256"
+         stroke="#008892"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1109" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Tillering id_Stem_Internode"
+         d="M -409.92523,259.80957 A 758.02665,758.02665 0 0 1 463.08054,132.01419"
+         stroke="#008892"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1111" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_Leaf"
+         d="M 480.92535,-119.60861 A 629.79129,629.79129 0 0 1 126.33308,471.33859"
+         stroke="#738859"
+         stroke-width="7.2381"
+         stroke-opacity="0.8"
+         id="path1113" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_months"
+         d="M 458.48584,-139.74278 A 545.71729,545.71729 0 0 1 -59.736324,-466.64725"
+         stroke="#d98c53"
+         stroke-width="4.38095"
+         stroke-opacity="0.8"
+         id="path1115" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_Control"
+         d="M 459.08707,-146.0108 A 346.17919,346.17919 0 0 1 211.03989,-425.48859"
+         stroke="#e69f00"
+         stroke-width="6.28571"
+         stroke-opacity="0.8"
+         id="path1117" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_days"
+         d="M 459.6943,-133.71172 A 701.04459,701.04459 0 0 1 -316.23245,-363.2908"
+         stroke="#d98c53"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1119" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_Root"
+         d="M 486.73144,-120.75438 A 450.53399,450.53399 0 0 1 346.04376,363.18838"
+         stroke="#738859"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1121" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_Chemical"
+         d="M 460.14886,-149.18561 A 234.77711,234.77711 0 0 1 326.81909,-361.91876"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1123" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Drought id_Cold_Temperature"
+         d="M 458.55041,-142.86731 A 450.53399,450.53399 0 0 1 74.694649,-479.8363"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1125" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Leaf"
+         d="M -49.980125,-472.98386 A 833.33335,833.33335 0 0 1 98.046356,441.27319"
+         stroke="#6675ac"
+         stroke-width="12"
+         stroke-opacity="0.8"
+         id="path1127" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Control"
+         d="M -43.521957,-507.77728 A 234.77711,234.77711 0 0 1 185.5834,-474.35382"
+         stroke="#d98c53"
+         stroke-width="5.80952"
+         stroke-opacity="0.8"
+         id="path1129" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Root"
+         d="M -44.672081,-479.8179 A 799.57745,799.57745 0 0 1 332.14713,354.63901"
+         stroke="#6675ac"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1131" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Stem"
+         d="M -47.078674,-476.21634 A 824.85119,824.85119 0 0 1 215.69321,432.49164"
+         stroke="#6675ac"
+         stroke-width="6.28571"
+         stroke-opacity="0.8"
+         id="path1133" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Chemical"
+         d="M -42.162701,-504.32205 A 346.17913,346.17913 0 0 1 317.58032,-390.44241"
+         stroke="#d98c53"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1135" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Stem_Internode"
+         d="M -41.511707,-487.81155 A 701.04459,701.04459 0 0 1 478.164,122.06177"
+         stroke="#6675ac"
+         stroke-width="3.90476"
+         stroke-opacity="0.8"
+         id="path1137" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Biotic_Plant"
+         d="M -41.172977,-500.40619 A 450.53399,450.53399 0 0 1 411.50171,-286.28345"
+         stroke="#d98c53"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1139" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_months id_Smut_Susceptible"
+         d="M -78.614563,-465.35303 A 450.53399,450.53399 0 0 1 -463.84085,-142.2731"
+         stroke="#d06b53"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1141" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Control"
+         d="M 44.350086,441.23236 A 799.57745,799.57745 0 0 1 187.20605,-433.58179"
+         stroke="#738859"
+         stroke-width="11.0476"
+         stroke-opacity="0.8"
+         id="path1143" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_days"
+         d="M 19.584936,464.24676 A 799.57745,799.57745 0 0 1 -331.14822,-359.86749"
+         stroke="#6675ac"
+         stroke-width="4.85714"
+         stroke-opacity="0.8"
+         id="path1145" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Root"
+         d="M 106.36182,446.32422 A 234.77714,234.77714 0 0 1 304.04108,373.99008"
+         stroke="#0072b2"
+         stroke-width="5.33333"
+         stroke-opacity="0.8"
+         id="path1147" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Stem"
+         d="m 118.0612,457.49368 a 118.59569,118.59569 0 0 1 66.72,-8.72195"
+         stroke="#0072b2"
+         stroke-width="6.7619"
+         stroke-opacity="0.8"
+         id="path1149" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Cold_Temperature"
+         d="M 36.927002,445.63318 A 824.85119,824.85119 0 0 1 61.983768,-482.43698"
+         stroke="#738859"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1151" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Chemical"
+         d="M 52.37941,437.9249 A 758.02665,758.02665 0 0 1 314.74027,-368.18301"
+         stroke="#738859"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1153" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Stem_Internode"
+         d="M 87.734932,437.24631 A 450.53399,450.53399 0 0 1 460.95438,142.58946"
+         stroke="#0072b2"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1155" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Biotic_Plant"
+         d="M 60.870735,435.7991 A 701.04459,701.04459 0 0 1 404.59763,-261.31198"
+         stroke="#738859"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1157" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Leaf id_Smut_Susceptible"
+         d="M 13.114359,479.71195 A 701.04459,701.04459 0 0 1 -478.44043,-124.95203"
+         stroke="#6a6859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1159" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Stem id_Root"
+         d="m 218.15306,433.53131 a 118.59569,118.59569 0 0 1 85.5768,-54.99689"
+         stroke="#0072b2"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1161" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Stem id_Chemical"
+         d="M 196.67923,433.8273 A 701.04459,701.04459 0 0 1 316.25848,-366.46612"
+         stroke="#738859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1163" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Stem id_Biotic_Plant"
+         d="M 199.82126,432.45633 A 629.79129,629.79129 0 0 1 406.05942,-259.10086"
+         stroke="#738859"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1165" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Stem id_Control"
+         d="m 193.78007,435.62811 a 758.02665,758.02665 0 0 1 -3.31916,-866.4909"
+         stroke="#738859"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1167" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Smut_Susceptible id_Biotic_Plant"
+         d="M -468.34741,-152.04793 A 758.02665,758.02665 0 0 1 404.3909,-278.95068"
+         stroke="#dd7e00"
+         stroke-width="3.42857"
+         stroke-opacity="0.8"
+         id="path1169" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Smut_Susceptible id_Control"
+         d="M -471.92947,-154.78975 A 629.79129,629.79129 0 0 1 178.73187,-460.43869"
+         stroke="#dd7e00"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1171" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Smut_Susceptible id_hours"
+         d="m -478.2547,-156.76417 a 346.17919,346.17919 0 0 1 255.4913,-294.43654"
+         stroke="#d06b53"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1173" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Root id_Control"
+         d="M 310.93561,360.84329 A 701.04459,701.04459 0 0 1 194.08678,-428.63055"
+         stroke="#738859"
+         stroke-width="5.33333"
+         stroke-opacity="0.8"
+         id="path1175" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Root id_Biotic_Plant"
+         d="m 316.50326,356.83322 a 545.71724,545.71724 0 0 1 91.33082,-613.94635"
+         stroke="#738859"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1177" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Root id_Chemical"
+         d="m 313.56412,358.64264 a 629.79129,629.79129 0 0 1 4.4483,-723.6228"
+         stroke="#738859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1179" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Root id_hours"
+         d="M 305.32919,369.29062 A 824.85119,824.85119 0 0 1 -208.68105,-439.36276"
+         stroke="#6675ac"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1181" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Root id_Stem_Internode"
+         d="M 326.91385,354.17075 A 234.77711,234.77711 0 0 1 462.33807,148.15054"
+         stroke="#0072b2"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1183" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Biotic_Plant id_Control"
+         d="M 402.35013,-272.33279 A 234.77714,234.77714 0 0 1 215.75655,-426.41858"
+         stroke="#e69f00"
+         stroke-width="5.80952"
+         stroke-opacity="0.8"
+         id="path1185" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Biotic_Plant id_hours"
+         d="M 403.29874,-264.17026 A 545.71724,545.71724 0 0 1 -198.26453,-442.54489"
+         stroke="#d98c53"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1187" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Chemical id_Cold_Temperature"
+         d="M 311.72372,-374.99896 A 234.77714,234.77714 0 0 1 79.010101,-481.56586"
+         stroke="#e69f00"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1189" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Chemical id_days"
+         d="m 314.51736,-368.48206 a 545.71724,545.71724 0 0 1 -627.05429,1.39017"
+         stroke="#d98c53"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1191" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Chemical id_Control"
+         d="m 311.4628,-377.79605 a 118.59569,118.59569 0 0 1 -90.10286,-50.85104"
+         stroke="#e69f00"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1193" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Chemical id_Stem_Internode"
+         d="M 340.05048,-368.09207 A 450.53399,450.53399 0 0 1 485.98556,123.05651"
+         stroke="#738859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1195" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_hours id_Control"
+         d="m -195.11574,-463.827 a 346.17916,346.17916 0 0 1 378.47682,-7.67593"
+         stroke="#d98c53"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1197" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_hours id_days"
+         d="m -214.04132,-440.68686 a 118.59569,118.59569 0 0 1 -95.0022,62.71469"
+         stroke="#cc79a7"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1199" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Control id_days"
+         d="m 186.1822,-434.62039 a 450.53399,450.53399 0 0 1 -497.3058,65.24118"
+         stroke="#d98c53"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1201" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Control id_Cold_Temperature"
+         d="M 178.9899,-447.99686 A 118.59569,118.59569 0 0 1 81.215317,-483.13837"
+         stroke="#e69f00"
+         stroke-width="2.95238"
+         stroke-opacity="0.8"
+         id="path1203" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_Control id_Stem_Internode"
+         d="M 233.23454,-439.99805 A 545.71724,545.71724 0 0 1 483.45508,122.3633"
+         stroke="#738859"
+         stroke-width="2"
+         stroke-opacity="0.8"
+         id="path1205" />
+      <path
+         stroke-linecap="round"
+         fill="none"
+         class="id_days id_Cold_Temperature"
+         d="M -316.03738,-392.30689 A 346.17913,346.17913 0 0 1 56.537022,-500.00919"
+         stroke="#d98c53"
+         stroke-width="2.47619"
+         stroke-opacity="0.8"
+         id="path1207" />
+    </g>
+    <g
+       id="nodes-6">
+      <circle
+         fill-opacity="1"
+         fill="#e69f00"
+         r="16.401613"
+         cx="500"
+         class="id_Plant_Nutrient"
+         cy="1.0106431e-12"
+         stroke="#ffee00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1210" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="14.95"
+         cx="-327.43036"
+         class="id_Meristem"
+         cy="377.87479"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1212" />
+      <circle
+         fill-opacity="1"
+         fill="#d55e00"
+         r="15.43387"
+         cx="-420.62677"
+         class="id_Drought_Tolerant"
+         cy="-270.3204"
+         stroke="#ff8d00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1214" />
+      <circle
+         fill-opacity="1"
+         fill="#009e73"
+         r="19.30484"
+         cx="-500"
+         class="id_Seedling"
+         cy="-2.8327696e-13"
+         stroke="#00edac"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1216" />
+      <circle
+         fill-opacity="1"
+         fill="#009e73"
+         r="22.691936"
+         cx="-479.74649"
+         class="id_Vegetative"
+         cy="140.86627"
+         stroke="#00edac"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1218" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="14.95"
+         cx="-207.7075"
+         class="id_Auxiliary_Bud"
+         cy="454.81601"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1220" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="16.885485"
+         cx="-71.157417"
+         class="id_Bud"
+         cy="494.91074"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1222" />
+      <circle
+         fill-opacity="1"
+         fill="#009e73"
+         r="14.95"
+         cx="-420.62677"
+         class="id_Tillering"
+         cy="270.3204"
+         stroke="#00edac"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1224" />
+      <circle
+         fill-opacity="1"
+         fill="#e69f00"
+         r="21.240324"
+         cx="479.74649"
+         class="id_Drought"
+         cy="-140.86627"
+         stroke="#ffee00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1226" />
+      <circle
+         fill-opacity="1"
+         fill="#cc79a7"
+         r="30.433872"
+         cx="-71.157417"
+         class="id_months"
+         cy="-494.91074"
+         stroke="#ffb5fa"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1228" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="59.950001"
+         cx="71.157417"
+         class="id_Leaf"
+         cy="494.91074"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1230" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="23.659678"
+         cx="207.7075"
+         class="id_Stem"
+         cy="454.81601"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1232" />
+      <circle
+         fill-opacity="1"
+         fill="#d55e00"
+         r="15.917742"
+         cx="-479.74649"
+         class="id_Smut_Susceptible"
+         cy="-140.86627"
+         stroke="#ff8d00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1234" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="23.659678"
+         cx="327.43036"
+         class="id_Root"
+         cy="377.87479"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1236" />
+      <circle
+         fill-opacity="1"
+         fill="#e69f00"
+         r="18.337097"
+         cx="420.62677"
+         class="id_Biotic_Plant"
+         cy="-270.3204"
+         stroke="#ffee00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1238" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="14.95"
+         cx="420.62677"
+         class="id_Flower"
+         cy="270.3204"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1240" />
+      <circle
+         fill-opacity="1"
+         fill="#e69f00"
+         r="15.917742"
+         cx="327.43036"
+         class="id_Chemical"
+         cy="-377.87479"
+         stroke="#ffee00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1242" />
+      <circle
+         fill-opacity="1"
+         fill="#cc79a7"
+         r="15.43387"
+         cx="-207.7075"
+         class="id_hours"
+         cy="-454.81601"
+         stroke="#ffb5fa"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1244" />
+      <circle
+         fill-opacity="1"
+         fill="#e69f00"
+         r="29.466129"
+         cx="207.7075"
+         class="id_Control"
+         cy="-454.81601"
+         stroke="#ffee00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1246" />
+      <circle
+         fill-opacity="1"
+         fill="#cc79a7"
+         r="18.337097"
+         cx="-327.43036"
+         class="id_days"
+         cy="-377.87479"
+         stroke="#ffb5fa"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1248" />
+      <circle
+         fill-opacity="1"
+         fill="#0072b2"
+         r="18.820969"
+         cx="479.74649"
+         class="id_Stem_Internode"
+         cy="140.86627"
+         stroke="#00abff"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1250" />
+      <circle
+         fill-opacity="1"
+         fill="#e69f00"
+         r="15.43387"
+         cx="71.157417"
+         class="id_Cold_Temperature"
+         cy="-494.91074"
+         stroke="#ffee00"
+         stroke-opacity="1"
+         stroke-width="0.1"
+         id="circle1252" />
+    </g>
+    <g
+       id="node-labels-outline-7">
+      <text
+         stroke="#734f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.40625"
+         font-family="Dialog"
+         class="id_Plant_Nutrient"
+         x="500"
+         stroke-linejoin="round"
+         y="4.4193497"
+         font-size="13px"
+         id="text1255">Plant Nutrient</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_Meristem"
+         x="-327.43036"
+         stroke-linejoin="round"
+         y="382.15891"
+         font-size="12px"
+         id="text1257">Meristem</text>
+      <text
+         stroke="#6a2f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_Drought_Tolerant"
+         x="-420.62677"
+         stroke-linejoin="round"
+         y="-266.03629"
+         font-size="12px"
+         id="text1259">Drought Tolerant</text>
+      <text
+         stroke="#004f39"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.46875"
+         font-family="Dialog"
+         class="id_Seedling"
+         x="-500"
+         stroke-linejoin="round"
+         y="5.2253265"
+         font-size="15px"
+         id="text1261">Seedling</text>
+      <text
+         stroke="#004f39"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.5625"
+         font-family="Dialog"
+         class="id_Vegetative"
+         x="-479.74649"
+         stroke-linejoin="round"
+         y="147.16263"
+         font-size="18px"
+         id="text1263">Vegetative</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_Auxiliary_Bud"
+         x="-207.7075"
+         stroke-linejoin="round"
+         y="459.10013"
+         font-size="12px"
+         id="text1265">Auxiliary Bud</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.4375"
+         font-family="Dialog"
+         class="id_Bud"
+         x="-71.157417"
+         stroke-linejoin="round"
+         y="499.60056"
+         font-size="14px"
+         id="text1267">Bud</text>
+      <text
+         stroke="#004f39"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_Tillering"
+         x="-420.62677"
+         stroke-linejoin="round"
+         y="274.60452"
+         font-size="12px"
+         id="text1269">Tillering</text>
+      <text
+         stroke="#734f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.53125"
+         font-family="Dialog"
+         class="id_Drought"
+         x="479.74649"
+         stroke-linejoin="round"
+         y="-134.9702"
+         font-size="17px"
+         id="text1271">Drought</text>
+      <text
+         stroke="#663c53"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.75"
+         font-family="Dialog"
+         class="id_months"
+         x="-71.157417"
+         stroke-linejoin="round"
+         y="-486.73737"
+         font-size="24px"
+         id="text1273">months</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="1.5"
+         font-family="Dialog"
+         class="id_Leaf"
+         x="71.157417"
+         stroke-linejoin="round"
+         y="511.52792"
+         font-size="48px"
+         id="text1275">Leaf</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.59375"
+         font-family="Dialog"
+         class="id_Stem"
+         x="207.7075"
+         stroke-linejoin="round"
+         y="461.37741"
+         font-size="19px"
+         id="text1277">Stem</text>
+      <text
+         stroke="#6a2f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.40625"
+         font-family="Dialog"
+         class="id_Smut_Susceptible"
+         x="-479.74649"
+         stroke-linejoin="round"
+         y="-136.44693"
+         font-size="13px"
+         id="text1279">Smut Susceptible</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.59375"
+         font-family="Dialog"
+         class="id_Root"
+         x="327.43036"
+         stroke-linejoin="round"
+         y="384.43619"
+         font-size="19px"
+         id="text1281">Root</text>
+      <text
+         stroke="#734f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.46875"
+         font-family="Dialog"
+         class="id_Biotic_Plant"
+         x="420.62677"
+         stroke-linejoin="round"
+         y="-265.09509"
+         font-size="15px"
+         id="text1283">Biotic Plant</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_Flower"
+         x="420.62677"
+         stroke-linejoin="round"
+         y="274.60452"
+         font-size="12px"
+         id="text1285">Flower</text>
+      <text
+         stroke="#734f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.40625"
+         font-family="Dialog"
+         class="id_Chemical"
+         x="327.43036"
+         stroke-linejoin="round"
+         y="-373.45544"
+         font-size="13px"
+         id="text1287">Chemical</text>
+      <text
+         stroke="#663c53"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_hours"
+         x="-207.7075"
+         stroke-linejoin="round"
+         y="-450.53189"
+         font-size="12px"
+         id="text1289">hours</text>
+      <text
+         stroke="#734f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.75"
+         font-family="Dialog"
+         class="id_Control"
+         x="207.7075"
+         stroke-linejoin="round"
+         y="-446.64264"
+         font-size="24px"
+         id="text1291">Control</text>
+      <text
+         stroke="#663c53"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.46875"
+         font-family="Dialog"
+         class="id_days"
+         x="-327.43036"
+         stroke-linejoin="round"
+         y="-372.64948"
+         font-size="15px"
+         id="text1293">days</text>
+      <text
+         stroke="#003959"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.46875"
+         font-family="Dialog"
+         class="id_Stem_Internode"
+         x="479.74649"
+         stroke-linejoin="round"
+         y="146.0916"
+         font-size="15px"
+         id="text1295">Stem Internode</text>
+      <text
+         stroke="#734f00"
+         stroke-linecap="round"
+         style="text-anchor:middle"
+         stroke-opacity="0.8"
+         fill="none"
+         font-weight="bold"
+         stroke-width="0.375"
+         font-family="Dialog"
+         class="id_Cold_Temperature"
+         x="71.157417"
+         stroke-linejoin="round"
+         y="-490.62662"
+         font-size="12px"
+         id="text1297">Cold Temperature</text>
+    </g>
+    <g
+       id="node-labels-5">
+      <text
+         font-size="13px"
+         x="500"
+         y="4.4193497"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Plant_Nutrient"
+         font-weight="bold"
+         id="text1300">Plant Nutrient</text>
+      <text
+         font-size="12px"
+         x="-327.43036"
+         y="382.15891"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Meristem"
+         font-weight="bold"
+         id="text1302">Meristem</text>
+      <text
+         font-size="12px"
+         x="-420.62677"
+         y="-266.03629"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Drought_Tolerant"
+         font-weight="bold"
+         id="text1304">Drought Tolerant</text>
+      <text
+         font-size="15px"
+         x="-500"
+         y="5.2253265"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Seedling"
+         font-weight="bold"
+         id="text1306">Seedling</text>
+      <text
+         font-size="18px"
+         x="-479.74649"
+         y="147.16263"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Vegetative"
+         font-weight="bold"
+         id="text1308">Vegetative</text>
+      <text
+         font-size="12px"
+         x="-207.7075"
+         y="459.10013"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Auxiliary_Bud"
+         font-weight="bold"
+         id="text1310">Auxiliary Bud</text>
+      <text
+         font-size="14px"
+         x="-71.157417"
+         y="499.60056"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Bud"
+         font-weight="bold"
+         id="text1312">Bud</text>
+      <text
+         font-size="12px"
+         x="-420.62677"
+         y="274.60452"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Tillering"
+         font-weight="bold"
+         id="text1314">Tillering</text>
+      <text
+         font-size="17px"
+         x="479.74649"
+         y="-134.9702"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Drought"
+         font-weight="bold"
+         id="text1316">Drought</text>
+      <text
+         font-size="24px"
+         x="-71.157417"
+         y="-486.73737"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_months"
+         font-weight="bold"
+         id="text1318">months</text>
+      <text
+         font-size="48px"
+         x="71.157417"
+         y="511.52792"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Leaf"
+         font-weight="bold"
+         id="text1320">Leaf</text>
+      <text
+         font-size="19px"
+         x="207.7075"
+         y="461.37741"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Stem"
+         font-weight="bold"
+         id="text1322">Stem</text>
+      <text
+         font-size="13px"
+         x="-479.74649"
+         y="-136.44693"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Smut_Susceptible"
+         font-weight="bold"
+         id="text1324">Smut Susceptible</text>
+      <text
+         font-size="19px"
+         x="327.43036"
+         y="384.43619"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Root"
+         font-weight="bold"
+         id="text1326">Root</text>
+      <text
+         font-size="15px"
+         x="420.62677"
+         y="-265.09509"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Biotic_Plant"
+         font-weight="bold"
+         id="text1328">Biotic Plant</text>
+      <text
+         font-size="12px"
+         x="420.62677"
+         y="274.60452"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Flower"
+         font-weight="bold"
+         id="text1330">Flower</text>
+      <text
+         font-size="13px"
+         x="327.43036"
+         y="-373.45544"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Chemical"
+         font-weight="bold"
+         id="text1332">Chemical</text>
+      <text
+         font-size="12px"
+         x="-207.7075"
+         y="-450.53189"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_hours"
+         font-weight="bold"
+         id="text1334">hours</text>
+      <text
+         font-size="24px"
+         x="207.7075"
+         y="-446.64264"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Control"
+         font-weight="bold"
+         id="text1336">Control</text>
+      <text
+         font-size="15px"
+         x="-327.43036"
+         y="-372.64948"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_days"
+         font-weight="bold"
+         id="text1338">days</text>
+      <text
+         font-size="15px"
+         x="479.74649"
+         y="146.0916"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Stem_Internode"
+         font-weight="bold"
+         id="text1340">Stem Internode</text>
+      <text
+         font-size="12px"
+         x="71.157417"
+         y="-490.62662"
+         fill-opacity="1"
+         fill="#000000"
+         font-family="Dialog"
+         style="text-anchor:middle"
+         class="id_Cold_Temperature"
+         font-weight="bold"
+         id="text1342">Cold Temperature</text>
+    </g>
+  </g>
+</svg>
