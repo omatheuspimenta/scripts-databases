@@ -6,11 +6,16 @@ This repository contains a collection of scripts and Jupyter notebooks designed 
 
 ```text
 .
-├── figures/            # Output visualization files (PNG, SVG)
-├── raw/                # CSV datasets and metadata files
-├── scripts/            # Python scripts and Jupyter notebooks
+├── figures/            # Output visualization files (PNG, SVG, Gephi)
+├── raw/                # CSV datasets, metadata files, and network graphs
+├── scripts/            # Python scripts, Jupyter notebooks, and Bash scripts
 ├── .gitignore          # Git ignore rules
-└── README.md           # This file
+├── CITATION.cff        # Citation information in CFF format
+├── LICENSE             # MIT License file
+├── README.md           # This file
+├── datapackage.json    # Data package specification
+├── pyproject.toml      # Python project configuration
+└── uv.lock             # Lockfile for environment dependencies
 ```
 
 ## Data (`raw/`)
@@ -18,6 +23,13 @@ This repository contains a collection of scripts and Jupyter notebooks designed 
 The `raw/` directory contains various stages of the sugarcane RNA-seq metadata:
 
 - `databases_rna_sugarcane.csv`: Sugarcane database of RNA-seq metadata.
+- `figure2_ontology_terms.graphml`: Network graph of ontology terms in GraphML format.
+- `figure2_ontology_terms.pdf` / `figure2_ontology_terms.png`: Static visualizations of the ontology terms network (Figure 2).
+- `figure2_supplementary_interactive.html`: Interactive web visualization of the ontology terms network.
+- `graph_sugarcane.graphml`: Network graph of sugarcane metadata connections in GraphML format.
+- `libtype.csv`: Dataset containing library type and strandedness information from Salmon outputs.
+- `ontology_table.csv`: Reference mapping table of curated ontology terms.
+- `SraRunTable.csv`: Metadata table downloaded from NCBI SRA containing run attributes.
 - `sugarcane_omics_metadata_cleaned.csv`: Cleaned version of the omics metadata.
 - `sugarcane_rna_complete.csv`: Full RNA-seq dataset including initial metadata.
 - `sugarcane_rna_filtered.csv`: RNA-seq metadata after preliminary filtering.
@@ -46,11 +58,13 @@ These notebooks are used for interactive data processing and visualization:
   - Run counts per BioProject
   - Tissue types
   - Treatment types
+- `create_graph_fig.ipynb`: Generates network graph figures and interactive visualizations for ontology metadata.
 - `filter_and_ontology.ipynb`: Handles manual filtering of metadata and curation of ontology terms (Genotype, Tissue, Treatment, Soil, Rainfall, etc.).
 - `filter_data.ipynb`: Filters metadata and files based on the distribution of runs per BioProject.
 - `filter_sugar.ipynb`: Performs the initial filtering of the sugarcane RNA-seq dataset.
 - `load_rna.ipynb`: Loading and initial preparation of RNA-seq data.
 - `load_rna_dois.ipynb`: Exploratory analys in the dataset with DOIs.
+- `r1.ipynb`: Revision analysis notebook for generating updated plots, library type analysis, and completeness metrics.
 
 ### Bash scripts
 
@@ -58,13 +72,29 @@ These scripts are used to run the `nf-core` pipelines and compress the files.
 
 - `pipeline_rnaseq_salmon.sh`: run the `nf-core` `fetchngs` and `rnaseq` using a `.csv` file with SRA IDs.
 - `compress_runs.sh`: extract the information from the complete results and save into a `.tar.xz` file.
+- `compress_runs_parallel.sh`: Multi-threaded parallel version of `compress_runs.sh` for archiving results.
 - `extract_libtype.sh`: get the libType from Salmon output.
+
+### Gephi Project Files
+
+These project files are used for interactive graph visual editing:
+
+- `graph_r1.gephi`: Gephi workspace file containing network graph layout for revision analysis.
 
 ## Figures (`figures/`)
 
+- `barplot.png`: Bar plot showing metadata category distributions.
+- `completeness_plot.png` / `figure_completeness.png` / `figure1_completeness.png`: Visualizations of dataset completeness across metadata attributes.
 - `figure_panel.png`: A multi-panel visualization of the sugarcane metadata.
+- `graph.gephi` / `graph.png` / `graph.svg` / `graph2.png` / `graph2.svg`: Network graph representations showing relationships among metadata terms.
+- `graph_r1.png` / `graph_r1.svg`: Revision network graph visualizations.
+- `growth_conditions.png`: Breakdown plot of plant growth condition categories.
+- `interface.png`: Screenshot overview of the interactive visualization interface.
 - `map.png`: Geographic distribution of the data sources.
 - `overview.svg` / `overview.png`: Summary overview of the dataset characteristics.
+- `run_counts.png`: Distribution plot of sequencing run counts per BioProject.
+- `tissue_distribution.png`: Breakdown plot of tissue types represented in the dataset.
+- `treatment_distribution.png`: Breakdown plot of experimental treatments represented in the dataset.
 
 ## Setup and Requirements
 
