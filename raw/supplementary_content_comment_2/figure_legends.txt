@@ -1,0 +1,80 @@
+Supplementary Figure 3. Processing outcome of the compendium.
+Number of Saccharum RNA-seq runs at each stage of the workflow. Of the 3,372
+paired-end Illumina runs retrieved from the Sequence Read Archive across 158
+BioProjects, 3,365 runs from 156 BioProjects were successfully quantified and 7
+were excluded: 3 runs retained fewer than 10,000 reads after trimming and were
+skipped by the workflow's minimum-trimmed-read threshold, and 4 runs yielded no
+fragments assignable to the R570 reference index. Both affected BioProjects
+lost all of their runs. Of the quantified runs, 3,097 (92.0%) passed all post-hoc quality
+criteria and 268 (8.0%) were flagged by at least one criterion. Exclusion and
+flagging criteria are defined in Supplementary Tables 2-4.
+
+
+Supplementary Figure 4. Distribution of library size.
+Kernel density of the number of raw reads per run (both mates, log10 scale)
+across the 3,365 quantified runs. Median 51,654,720 reads per run
+(interquartile range 32.1-68.7 million; range 45,425-610,232,490).
+
+
+Supplementary Figure 5. Reads retained after adapter and quality trimming.
+Histogram of the percentage of reads surviving Trim Galore trimming, in 0.1%
+bins. Median retention 99.82% (interquartile range 99.35-99.95%). The
+horizontal axis is restricted to 95-100% for legibility; 92 runs (2.7%)
+retained less than 95% of their reads and fall outside the plotted range, the
+lowest being 47.5%.
+
+
+Supplementary Figure 6. Adapter content of raw reads.
+Histogram of the percentage of reads containing adapter sequence prior to
+trimming, as reported by Cutadapt. Median 33.2% (interquartile range
+31.0-35.3%).
+
+
+Supplementary Figure 7. FastQC module verdicts before and after trimming.
+Share of runs receiving a pass, warn or fail verdict for each FastQC module,
+shown separately for raw reads (left) and reads after trimming (right). Modules
+are ordered by their failure rate in raw reads. Percentages are printed on
+every segment so that the verdict is conveyed by label as well as by colour.
+Trimming removed adapter contamination effectively: runs failing the
+adapter-content module fell from 359 to 38, and per-base sequence quality
+failures from 65 to 13. The high failure rates that persist for per-base
+sequence content and per-sequence GC content are expected for plant
+transcriptomes, reflecting the non-uniform base composition of random-primed
+RNA-seq libraries and the multimodal GC distribution of the highly polyploid
+Saccharum transcriptome, rather than technical failure. Counts underlying this
+figure are given in Supplementary Table 6.
+
+
+Supplementary Figure 8. Mapping rate against the R570 transcriptome.
+Histogram of the percentage of fragments assigned by Salmon to the R570
+reference transcriptome, per run. Median 77.2% (interquartile range
+60.7-82.9%); 3,182 runs (94.6%) mapped at or above the 30% quality-flagging
+threshold and 2,846 (84.6%) mapped at 50% or above.
+
+
+Supplementary Figure 9. Gene detection against sequencing depth.
+Number of genes detected at TPM > 0 per run, plotted against the number of
+fragments mapped by Salmon (log10 scale). Each point is one run, coloured by
+its post-hoc quality verdict. Median 111,026 of 190,973 genes detected per run
+(interquartile range 99,474-120,674). Flagged runs lie almost entirely in the
+low-depth region of the distribution.
+
+
+Supplementary Figure 10. Mapping rate by BioProject.
+Median mapping rate for each of the 156 BioProjects contributing quantified
+runs, ordered along the horizontal axis by that median. Vertical bars span the
+interquartile range of runs within each BioProject; the 36 BioProjects
+contributing a single run have no bar. Seven BioProjects have a median mapping
+rate below the 30% quality-flagging threshold.
+
+
+Supplementary Figure 11. Library type inferred by Salmon.
+Number of runs assigned to each Salmon library type. I, inward-facing paired
+reads; S, single-end; F and R denote the strand of the first read; U denotes an
+unstranded protocol. Salmon inferred a stranded protocol for 1,757 runs (52.2%)
+and an unstranded protocol for 1,608 runs (47.8%). Strandedness is not declared
+in SRA metadata and is inferred here from the data. The four runs typed SF or
+SR were delivered as a single FASTQ file and quantified as single-end despite
+being recorded as PAIRED in SRA; they are retained and flagged. Full
+library-type concordance between SRA metadata and Salmon inference is reported
+in Supplementary Tables 9-11.
