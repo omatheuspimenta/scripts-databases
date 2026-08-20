@@ -1,0 +1,9 @@
+category	n_runs
+Runs retrieved from SRA metadata query	3372
+Runs with completed pipeline output	3365
+Runs without pipeline output (failed retrieval/processing)	7
+Runs with output but no Salmon quantification	0
+Runs with a parse error while harvesting QC	0
+Quantified runs passing all QC criteria	3097
+Quantified runs flagged by >=1 QC criterion	268
+BioProjects represented (quantified runs)	156

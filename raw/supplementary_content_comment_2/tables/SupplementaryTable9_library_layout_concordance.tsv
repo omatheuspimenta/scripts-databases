@@ -1,0 +1,6 @@
+sra_library_layout	observed_layout	salmon_expected_format	layout_concordant	n_runs
+PAIRED	PAIRED	ISR	yes	1675
+PAIRED	PAIRED	IU	yes	1608
+PAIRED	PAIRED	ISF	yes	78
+PAIRED	SINGLE	SF	no	2
+PAIRED	SINGLE	SR	no	2

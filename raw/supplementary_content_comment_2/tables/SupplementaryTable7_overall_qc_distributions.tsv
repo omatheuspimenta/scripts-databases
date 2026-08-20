@@ -1,0 +1,21 @@
+metric	column	n	median	q1	q3	min	max
+Raw reads (both mates)	reads_raw	3365	51654720.0	32053814.0	68664318.0	45425.0	610232490.0
+Reads after trimming	reads_trimmed	3365	51486076.0	31703476.0	68424106.0	38186.0	523988586.0
+% reads retained after trimming	reads_retained_pct	3365	99.8158	99.3514	99.9507	47.5253	100.0
+% reads with adapter	cutadapt_pct_reads_with_adapters	3365	33.1858	30.9525	35.3013	0.6315	89.2548
+% bases removed by trimming	cutadapt_pct_bp_removed	3365	1.1446	0.7287	1.817	0.1839	50.2254
+Raw %GC	fastqc_raw_percent_gc	3365	52.0	49.0	54.0	39.5	62.5
+Raw % duplicates	fastqc_raw_percent_duplicates	3365	51.8279	43.5002	67.4516	11.0912	95.8799
+Raw mean read length	fastqc_raw_avg_read_length	3365	149.6408	101.0	150.0	38.0	895.0642
+Trimmed mean read length	fastqc_trimmed_avg_read_length	3365	139.2589	99.8714	148.576	35.2922	893.1379
+Fragments processed by Salmon	num_processed	3365	25743038.0	15852251.0	34212053.0	19093.0	261994293.0
+Fragments mapped	num_mapped	3365	18429458.0	10726222.0	24025820.0	39.0	216010422.0
+% fragments mapped	percent_mapped	3365	77.2312	60.7358	82.8718	0.0014	95.0938
+% decoy fragments	pct_decoy	3365	9.3267	7.4596	13.8165	0.0029	49.9991
+Library compatibility ratio	compatible_fragment_ratio	3365	1.0	1.0	1.0	1.0	1.0
+Strand mapping bias	strand_mapping_bias	3365	0.1709	0.0	0.5006	0.0	1.0
+Mean fragment length	frag_length_mean	3365	228.782	171.9471	283.7971	82.698	411.7779
+Genes detected (TPM>0)	genes_detected_gt0	3365	111026.0	99474.0	120674.0	13.0	155644.0
+Fraction of genes at TPM>=1	genes_frac_ge1	3365	0.3326	0.2922	0.376	0.0001	0.5783
+Transcripts detected (TPM>0)	tx_detected_gt0	3365	135333.0	118678.0	150409.0	13.0	217326.0
+Fraction of transcripts at TPM>=1	tx_frac_ge1	3365	0.2438	0.2093	0.2793	0.0	0.3895

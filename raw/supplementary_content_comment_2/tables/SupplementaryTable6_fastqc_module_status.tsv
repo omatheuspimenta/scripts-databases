@@ -1,0 +1,17 @@
+stage	module	pass	warn	fail	n_runs
+raw	adapter_content	2828	178	359	3365
+raw	overrepresented_sequences	1707	1261	397	3365
+raw	per_base_n_content	3304	4	57	3365
+raw	per_base_sequence_content	3	1121	2241	3365
+raw	per_base_sequence_quality	3286	14	65	3365
+raw	per_sequence_gc_content	53	503	2809	3365
+raw	per_sequence_quality_scores	3362	0	3	3365
+raw	sequence_duplication_levels	133	1294	1938	3365
+trimmed	adapter_content	3318	9	38	3365
+trimmed	overrepresented_sequences	1911	1110	344	3365
+trimmed	per_base_n_content	3308	2	55	3365
+trimmed	per_base_sequence_content	0	177	3188	3365
+trimmed	per_base_sequence_quality	3352	0	13	3365
+trimmed	per_sequence_gc_content	50	460	2855	3365
+trimmed	per_sequence_quality_scores	3365	0	0	3365
+trimmed	sequence_duplication_levels	136	1299	1930	3365

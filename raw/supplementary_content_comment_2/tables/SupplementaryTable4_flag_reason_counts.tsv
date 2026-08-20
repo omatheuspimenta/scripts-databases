@@ -1,0 +1,4 @@
+reason	n_runs
+low_mapping_rate(<30%)	183
+low_depth(<1,000,000 mapped)	130
+fastqc_per_base_quality_fail	13

@@ -1,0 +1,7 @@
+component	version	n_runs
+pipeline	v3.22.2-g3816d48	2436
+pipeline	v3.23.0-g13328f7	929
+nextflow	25.10.2	3365
+salmon	1.10.3	3365
+cutadapt	4.9	2436
+cutadapt	5.2	929

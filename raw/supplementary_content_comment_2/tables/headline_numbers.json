@@ -1,0 +1,179 @@
+{
+  "census": {
+    "Runs retrieved from SRA metadata query": 3372,
+    "Runs with completed pipeline output": 3365,
+    "Runs without pipeline output (failed retrieval/processing)": 7,
+    "Runs with output but no Salmon quantification": 0,
+    "Runs with a parse error while harvesting QC": 0,
+    "Quantified runs passing all QC criteria": 3097,
+    "Quantified runs flagged by >=1 QC criterion": 268,
+    "BioProjects represented (quantified runs)": 156
+  },
+  "thresholds": {
+    "min_percent_mapped": 30.0,
+    "min_mapped_fragments": 1000000,
+    "min_compatible_fragment_ratio": 0.5
+  },
+  "distributions": {
+    "reads_raw": {
+      "n": 3365,
+      "median": 51654720.0,
+      "q1": 32053814.0,
+      "q3": 68664318.0,
+      "min": 45425.0,
+      "max": 610232490.0
+    },
+    "reads_trimmed": {
+      "n": 3365,
+      "median": 51486076.0,
+      "q1": 31703476.0,
+      "q3": 68424106.0,
+      "min": 38186.0,
+      "max": 523988586.0
+    },
+    "reads_retained_pct": {
+      "n": 3365,
+      "median": 99.8158,
+      "q1": 99.3514,
+      "q3": 99.9507,
+      "min": 47.5253,
+      "max": 100.0
+    },
+    "cutadapt_pct_reads_with_adapters": {
+      "n": 3365,
+      "median": 33.1858,
+      "q1": 30.9525,
+      "q3": 35.3013,
+      "min": 0.6315,
+      "max": 89.2548
+    },
+    "cutadapt_pct_bp_removed": {
+      "n": 3365,
+      "median": 1.1446,
+      "q1": 0.7287,
+      "q3": 1.817,
+      "min": 0.1839,
+      "max": 50.2254
+    },
+    "fastqc_raw_percent_gc": {
+      "n": 3365,
+      "median": 52.0,
+      "q1": 49.0,
+      "q3": 54.0,
+      "min": 39.5,
+      "max": 62.5
+    },
+    "fastqc_raw_percent_duplicates": {
+      "n": 3365,
+      "median": 51.8279,
+      "q1": 43.5002,
+      "q3": 67.4516,
+      "min": 11.0912,
+      "max": 95.8799
+    },
+    "fastqc_raw_avg_read_length": {
+      "n": 3365,
+      "median": 149.6408,
+      "q1": 101.0,
+      "q3": 150.0,
+      "min": 38.0,
+      "max": 895.0642
+    },
+    "fastqc_trimmed_avg_read_length": {
+      "n": 3365,
+      "median": 139.2589,
+      "q1": 99.8714,
+      "q3": 148.576,
+      "min": 35.2922,
+      "max": 893.1379
+    },
+    "num_processed": {
+      "n": 3365,
+      "median": 25743038.0,
+      "q1": 15852251.0,
+      "q3": 34212053.0,
+      "min": 19093.0,
+      "max": 261994293.0
+    },
+    "num_mapped": {
+      "n": 3365,
+      "median": 18429458.0,
+      "q1": 10726222.0,
+      "q3": 24025820.0,
+      "min": 39.0,
+      "max": 216010422.0
+    },
+    "percent_mapped": {
+      "n": 3365,
+      "median": 77.2312,
+      "q1": 60.7358,
+      "q3": 82.8718,
+      "min": 0.0014,
+      "max": 95.0938
+    },
+    "pct_decoy": {
+      "n": 3365,
+      "median": 9.3267,
+      "q1": 7.4596,
+      "q3": 13.8165,
+      "min": 0.0029,
+      "max": 49.9991
+    },
+    "compatible_fragment_ratio": {
+      "n": 3365,
+      "median": 1.0,
+      "q1": 1.0,
+      "q3": 1.0,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "strand_mapping_bias": {
+      "n": 3365,
+      "median": 0.1709,
+      "q1": 0.0,
+      "q3": 0.5006,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "frag_length_mean": {
+      "n": 3365,
+      "median": 228.782,
+      "q1": 171.9471,
+      "q3": 283.7971,
+      "min": 82.698,
+      "max": 411.7779
+    },
+    "genes_detected_gt0": {
+      "n": 3365,
+      "median": 111026.0,
+      "q1": 99474.0,
+      "q3": 120674.0,
+      "min": 13.0,
+      "max": 155644.0
+    },
+    "genes_frac_ge1": {
+      "n": 3365,
+      "median": 0.3326,
+      "q1": 0.2922,
+      "q3": 0.376,
+      "min": 0.0001,
+      "max": 0.5783
+    },
+    "tx_detected_gt0": {
+      "n": 3365,
+      "median": 135333.0,
+      "q1": 118678.0,
+      "q3": 150409.0,
+      "min": 13.0,
+      "max": 217326.0
+    },
+    "tx_frac_ge1": {
+      "n": 3365,
+      "median": 0.2438,
+      "q1": 0.2093,
+      "q3": 0.2793,
+      "min": 0.0,
+      "max": 0.3895
+    }
+  }
+}
