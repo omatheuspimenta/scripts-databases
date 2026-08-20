@@ -1,0 +1,82 @@
+SUPPLEMENTARY FIGURE LEGENDS
+Sweet Recycler: a platform for reusing bulk RNA-seq data for sugarcane
+
+Supplementary Figures 12-17, added in response to reviewer #2, comment 4
+(reference-genome bias). Numbering continues the series; Supplementary Figures
+1-2 were in the original submission and 3-11 were added in response to
+comment 2.
+
+The figures carry no titles or in-figure annotation; the opening sentence of
+each legend below serves as the figure title. Source data are in Supplementary
+Tables 13-26.
+
+All figures summarise the high-confidence subset: the 2,582 runs, from 119 BioProjects, whose genotype and species are unambiguous in the released
+database. Runs were included only if the genotype field was populated, the
+Organism field named a definite taxon, every run sharing that genotype resolved
+to the same species, and the run was not flagged for a quality reason
+independent of mapping rate. No species label was corrected; runs with
+inconsistent labelling were excluded and are listed in Supplementary Table 14.
+Because modern cultivars are themselves Saccharum officinarum x Saccharum
+spontaneum hybrids, runs recorded under either designation are pooled as hybrid
+cultivars. Experimental segregating populations (F1 and F2 progeny and explicit crosses) are excluded, since their genome composition differs systematically from that of released cultivars, as are minor Saccharum species with no defined position on the divergence gradient. Species groups are ordered by divergence from the R570 reference,
+from R570 itself through the modern hybrid breeding pool, the parental species,
+other Saccharum species, and finally Tripidium arundinaceum, which belongs to a
+different genus and serves as an out-of-genus outgroup.
+
+
+Supplementary Figure 12. Species effect on mapping rate, adjusted for study,
+depth and read length.
+Estimated difference in mapping rate relative to R570 for each species group,
+with 95% confidence intervals, from a linear mixed model of mapping rate on
+species group, log10 mapped fragments and mean read length, with BioProject as
+a random intercept (n = 2,582 runs, 119 BioProjects). Every interval spans
+zero, including that of the out-of-genus outgroup: once study of origin is
+accounted for, no species group has a mapping rate distinguishable from R570.
+BioProject accounts for 79.7% of the total variance in mapping rate. Groups
+represented by a single BioProject are shown in grey because their effect
+cannot be separated from that study.
+
+
+Supplementary Figure 13. Species effect on the number of genes detected,
+adjusted for study, depth and read length.
+As Supplementary Figure 12, with the number of genes detected at TPM > 0 as the
+response. In contrast to mapping rate, the effect is clearly non-zero and
+increases with distance from R570: -7,174 genes for non-R570 hybrid cultivars (95% CI -9,520 to -4,827), -9,461 for S. officinarum (-12,720 to -6,203), -17,277 for S. spontaneum (-19,842 to -14,713) and -30,329 for the Tripidium outgroup (-36,187 to -24,471). BioProject accounts for 70.2% of the variance.
+
+
+Supplementary Figure 14. Genes detected against sequencing depth, by species
+group.
+Each panel shows the runs of one species group (blue) against all 2,582 classified runs (grey); the dashed line is the linear fit to the 66 R570 runs
+on the same axes. Panels are ordered by distance from R570. R570 runs lie on
+their own fit by construction, whereas S. spontaneum and the Tripidium outgroup
+fall consistently below it at equivalent depth, showing that the detection
+deficit is not explained by how deeply the libraries were sequenced.
+
+
+Supplementary Figure 15. Genes detected at matched sequencing depth, relative
+to R570.
+Model-predicted number of genes detected at the compendium median depth of 18.3
+million mapped fragments and median read length, expressed as a percentage of
+the R570 prediction (121,049 genes). Detection falls to 94.1% for non-R570 hybrid cultivars, 92.2% for S. officinarum, 85.7% for S. spontaneum and 74.9% for the Tripidium outgroup. The Tripidium bar is shown in grey because that group is represented by a single BioProject and its estimate cannot be separated from that study.
+
+
+Supplementary Figure 16. Genes reliably detected in R570 but not in each
+species group, and the reciprocal comparison.
+A gene is counted as lost if it is detected in at least 90% of R570 runs and in
+at most 10% of the group's runs, and as gained under the reciprocal criterion.
+Counts are plotted on a log scale because they span three orders of magnitude.
+The horizontal distance between the two points is the asymmetry between the two
+directions, which is the signature of reference bias: a purely technical effect
+would move both directions equally. Losses exceed gains in every species group,
+by 8.8-fold for non-R570 hybrid cultivars and 19.0-fold for the Tripidium
+outgroup. Genes in the lost set are not merely background: their median
+expression in R570 is 1.8-2.9 TPM and 64-86% of them exceed 1 TPM.
+
+
+Supplementary Figure 17. Genes lost within single BioProjects, where sequencing
+depth and protocol are matched by design.
+The same lost-gene criterion as Supplementary Figure 16, applied within each of
+the studies that contain more than one species group, so that library
+preparation, sequencing depth and tissue are held constant. Each bar is
+labelled with the number of genes lost and the ratio of lost to gained genes.
+Contrasts in which that ratio is below two are shown in grey and are not counted as evidence of reference bias, because comparable movement in both directions is what a biological or technical difference between the groups would produce. The single grey contrast here rests on four runs per side and 185 lost genes, so it is too small to be conclusive either way. Nine of the ten contrasts are asymmetric; among them S. spontaneum loses 0.6-10.4% of the baseline gene set depending on the study, the Tripidium outgroup 11.2%, and non-R570 hybrid cultivars 1.3% relative to R570 within PRJEB40481.
