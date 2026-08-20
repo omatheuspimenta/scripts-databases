@@ -1,0 +1,7 @@
+genotype	n_runs	n_distinct_species_labels	labels_seen
+ROC22	130	3	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+GT42	120	2	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+Badila	78	2	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+GT44	30	2	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SES208	29	2	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+YT71-210	5	2	Saccharum hybrid cultivar (non-R570) x4; Saccharum spontaneum x1

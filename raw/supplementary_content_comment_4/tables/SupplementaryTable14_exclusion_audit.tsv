@@ -1,0 +1,791 @@
+run	bioproject	genotype	organism	rule	detail
+SRR7651129	PRJNA480179	Q200	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7651130	PRJNA480179	Q200	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7651132	PRJNA480179	Q200	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502913	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502914	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502912	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502909	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502910	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502911	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502905	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502904	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502922	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502923	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502920	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502921	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502925	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502924	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502926	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502927	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502929	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502928	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502930	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502919	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502946	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502983	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502984	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502965	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502964	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502993	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502991	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502990	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502989	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502988	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502963	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502962	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502961	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502958	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502934	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502933	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502982	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502981	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502980	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502979	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502996	PRJNA479814	Q208	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR7502967	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR7502966	PRJNA479814	KQ228	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR33420099	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420100	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420069	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420070	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420071	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420072	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420073	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420074	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420075	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420034	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420036	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420035	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420062	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420061	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420060	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420033	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420078	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420097	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420098	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420041	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420042	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420043	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420076	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420077	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420085	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420057	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420058	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420059	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420094	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420093	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420095	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420096	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420087	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420102	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420103	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420104	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420088	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420086	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420083	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420092	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420101	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420091	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420050	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420047	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420049	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420048	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420052	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420051	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420054	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420055	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420084	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420053	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420037	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420068	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420063	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420038	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420064	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420065	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420081	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420080	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420046	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420079	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420044	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420045	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420040	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420039	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420089	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420090	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420056	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420082	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420067	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR33420066	PRJNA1258708	SP80-3280	Saccharum hybrid cultivar SP80-3280	R4_qc_flag_mapping_independent	low_depth
+SRR25760409	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760410	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760401	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760389	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760412	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760414	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760411	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760396	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760397	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760398	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760399	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760400	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760376	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760375	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760374	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760373	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760372	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760371	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760377	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760378	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760385	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760386	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760379	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760380	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760381	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760382	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760383	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760384	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760392	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760391	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760390	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760408	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760388	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760387	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760393	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760395	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760394	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760402	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760403	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760404	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760405	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760406	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760407	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760370	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760413	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760362	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760360	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760361	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760369	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760368	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760365	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760366	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760367	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR25760359	PRJNA1008895	GT42	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR4014621	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014620	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014619	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014618	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014617	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014616	PRJNA335885	F2 LA-Purple X US56-14-3	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-3
+SRR4014615	PRJNA335885	F2 LA-Purple X US56-14-1	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-1
+SRR4014661	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014665	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014666	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014667	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014668	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014640	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014639	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014638	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014654	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014655	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014659	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014660	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014646	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014647	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014648	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014649	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014650	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014651	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014652	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014653	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014629	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014628	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014627	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014631	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014630	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014625	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014626	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014643	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014642	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014641	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014635	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014636	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014637	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014656	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014624	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014658	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014657	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014623	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014622	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014644	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR4014645	PRJNA335885	F2 LA-Purple X US56-14-4	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	F2 LA-Purple X US56-14-4
+SRR35896384	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896396	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896395	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896393	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896379	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896380	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896381	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896382	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896391	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896385	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896386	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896387	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896388	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896389	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896390	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896398	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896392	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896397	PRJNA1353852		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR35896377	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896399	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896413	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896378	PRJNA1353852		Saccharum spontaneum	R1_genotype_missing	(empty)
+SRR35896400	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896415	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896417	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896418	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896419	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896420	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896421	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896423	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896424	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896414	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896422	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896412	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896401	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896410	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896409	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896408	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896407	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896406	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896404	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896403	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896411	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR35896402	PRJNA1353852		Saccharum hybrid cultivar	R1_genotype_missing	(empty)
+SRR24724157	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724156	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724155	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724177	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724176	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724158	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724188	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724187	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724186	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724185	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724179	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR24724178	PRJNA974890	FN41	Saccharum officinarum	R4_qc_flag_mapping_independent	low_depth
+SRR34982272	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982273	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982274	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982275	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982276	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982277	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982284	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982295	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982305	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982304	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982306	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR34982307	PRJNA1305544	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938692	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938693	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938708	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938709	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938694	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938695	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938696	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938697	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938704	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938705	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938706	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938707	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938716	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938717	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938718	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938719	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938720	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16938721	PRJNA780178	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709559	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709560	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709561	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709562	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709563	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709578	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709579	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709564	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709565	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709566	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709567	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709568	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709569	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709570	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709571	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709582	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709583	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709584	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709585	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709586	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709587	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709588	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709580	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709581	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709572	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709573	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709574	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709575	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR16709576	PRJNA776107	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR16709577	PRJNA776107	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR22730659	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730658	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730657	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730656	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730669	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730668	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730660	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730654	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730655	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730661	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730662	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730663	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730667	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730665	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22730666	PRJNA910309	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR22681475	PRJNA910660	KAT	Saccharum barberi	R6_minor_species_no_defined_divergence	Saccharum barberi
+SRR22681474	PRJNA910660	KAT	Saccharum barberi	R6_minor_species_no_defined_divergence	Saccharum barberi
+SRR22681473	PRJNA910660	KAT	Saccharum barberi	R6_minor_species_no_defined_divergence	Saccharum barberi
+SRR22681498	PRJNA910660	KAT	Saccharum barberi	R6_minor_species_no_defined_divergence	Saccharum barberi
+SRR22681497	PRJNA910660	KAT	Saccharum barberi	R6_minor_species_no_defined_divergence	Saccharum barberi
+SRR22681484	PRJNA910660	YBA	Saccharum sinense	R6_minor_species_no_defined_divergence	Saccharum sinense
+SRR22681488	PRJNA910660	YBA	Saccharum sinense	R6_minor_species_no_defined_divergence	Saccharum sinense
+SRR22681487	PRJNA910660	YBA	Saccharum sinense	R6_minor_species_no_defined_divergence	Saccharum sinense
+SRR22681486	PRJNA910660	KAT	Saccharum barberi	R6_minor_species_no_defined_divergence	Saccharum barberi
+SRR22681485	PRJNA910660	YBA	Saccharum sinense	R6_minor_species_no_defined_divergence	Saccharum sinense
+SRR22681483	PRJNA910660	YBA	Saccharum sinense	R6_minor_species_no_defined_divergence	Saccharum sinense
+SRR22681482	PRJNA910660	YBA	Saccharum sinense	R6_minor_species_no_defined_divergence	Saccharum sinense
+SRR11826545	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826568	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826556	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826557	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826552	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826551	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826550	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826549	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826548	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826547	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826562	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826561	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826560	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826559	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826558	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826563	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826564	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826555	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826571	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826570	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826553	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826554	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826569	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826546	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826566	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826567	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR11826565	PRJNA633918	GT42	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x54; (indefinite) x39; Saccharum hybrid cultivar (non-R570) x27
+SRR34710434	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710435	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710436	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710437	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710440	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710441	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710422	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710423	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710429	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710424	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710432	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR34710433	PRJNA1293820	GT44	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR8910760	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910761	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910762	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910763	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910764	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910765	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910766	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910767	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910768	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910769	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910750	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910772	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910773	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910771	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910770	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910751	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910758	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910757	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910756	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8910755	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910754	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910753	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910752	PRJNA533093	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR8910759	PRJNA533093	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR10807937	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807942	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807943	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807945	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807938	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807955	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807954	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807953	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807952	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807949	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807934	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807933	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807935	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807941	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807940	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807939	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807936	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807944	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807956	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807951	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807950	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807948	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807947	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR10807946	PRJNA598295	GT21	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018126	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018127	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018128	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018134	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018135	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018136	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018137	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018118	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018120	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018121	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018122	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018124	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018125	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018123	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018132	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018131	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018130	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018129	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018119	PRJNA893415	SES209	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018133	PRJNA893415	SES208	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018114	PRJNA893415	Saccharum officinarum	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018115	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018117	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR22018116	PRJNA893415	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223350	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223349	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223348	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223352	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223359	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223361	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223360	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223356	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223357	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223358	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223355	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223354	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223353	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223351	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223340	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223342	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223343	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223344	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223345	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223346	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223347	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR5223341	PRJNA347369	LA Purple x MOL5829	Saccharum	R2_organism_indefinite	Saccharum
+SRR29090753	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090754	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090748	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090749	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090750	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090751	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090752	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090755	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090757	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090758	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090759	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090760	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090761	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090762	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090763	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090764	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090765	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR29090756	PRJNA1109933	GT44	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x18; Saccharum hybrid cultivar (non-R570) x12
+SRR4045247	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4045246	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044632	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044631	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044630	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044626	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044625	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044624	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044623	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044622	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044621	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044620	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044619	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044618	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4045248	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044629	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044627	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR4044628	PRJNA339462	IN82-84 x NCo310	Saccharum officinarum x Saccharum spontaneum	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR10874794	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874807	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874805	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874803	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874793	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874799	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874792	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874795	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874800	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874798	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874801	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874802	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874804	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874808	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874809	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874796	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874806	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR10874797	PRJNA600759	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR14292211	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292212	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292213	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292214	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292215	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292216	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292217	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292205	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292209	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292202	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292201	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292208	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292207	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292204	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292203	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292200	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292210	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR14292206	PRJNA723212	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR17400089	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400092	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400093	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400083	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400084	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400085	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400086	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400087	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400088	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400090	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400091	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400095	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400094	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400096	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400097	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400098	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400100	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR17400099	PRJNA793161	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR18171688	PRJNA811175	SP81-3250	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR27232034	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232033	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232032	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232035	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232036	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232037	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232038	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232040	PRJNA1051631	SES208	Saccharum officinarum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232039	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232031	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232029	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232042	PRJNA1051631	SES208	Saccharum officinarum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232043	PRJNA1051631	SES208	Saccharum officinarum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232025	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232026	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232028	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR27232027	PRJNA1051631	SES208	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum spontaneum x14; (indefinite) x12; Saccharum officinarum x3
+SRR6432911	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432913	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432912	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432910	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432918	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432919	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432920	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432915	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432916	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432917	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432914	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432905	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432906	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432907	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432908	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR6432909	PRJNA427493	NOT FOUND	Saccharum hybrid cultivar	R1_genotype_missing	NOT FOUND
+SRR15512848	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512849	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512850	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512847	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512860	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512851	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512855	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512859	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512858	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512856	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512857	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512861	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512854	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512852	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR15512853	PRJNA755736	IN82-84 x NCo310	Saccharum hybrid cultivar	R5_experimental_cross_progeny	IN82-84 x NCo310
+SRR25897124	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25897123	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25897122	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25897121	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25897120	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25897119	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25885092	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25885091	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25885090	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25885089	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25885088	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR25885093	PRJNA1010968	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR30347213	PRJNA1151152	SES-208	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347212	PRJNA1151152	SES-208	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347223	PRJNA1151152	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347222	PRJNA1151152	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347221	PRJNA1151152	SES-208	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347220	PRJNA1151152	SES-208	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347219	PRJNA1151152	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347218	PRJNA1151152	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347217	PRJNA1151152	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347216	PRJNA1151152	LA-Purple	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347215	PRJNA1151152	SES-208	Saccharum	R2_organism_indefinite	Saccharum
+SRR30347214	PRJNA1151152	SES-208	Saccharum	R2_organism_indefinite	Saccharum
+SRR36472342	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472336	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472331	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472333	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472334	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472335	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472332	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472337	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472338	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472339	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472340	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR36472341	PRJNA1381261	GT42	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR5940942	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940941	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940940	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940945	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940944	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940943	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940949	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940948	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940947	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940946	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940939	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR5940938	PRJNA383616	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182133	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182132	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182131	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182130	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182129	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182128	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182127	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182126	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182125	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182124	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182123	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR8182122	PRJNA504395	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR9018384	PRJNA541294	YT71-210	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x4; Saccharum spontaneum x1
+SRR9018383	PRJNA541294	YT71-210	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x4; Saccharum spontaneum x1
+SRR9018382	PRJNA541294	YT71-210	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x4; Saccharum spontaneum x1
+SRR9018381	PRJNA541294	YT71-210	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x4; Saccharum spontaneum x1
+SRR9018380	PRJNA541294	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR9018379	PRJNA541294	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR9018378	PRJNA541294	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR9018377	PRJNA541294	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779989	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779983	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779988	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779987	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779982	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779981	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779980	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779979	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779978	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779986	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779985	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR21779984	PRJNA885747	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR22696841	PRJNA911338	NOT FOUND	Tripidium arundinaceum	R1_genotype_missing	NOT FOUND
+SRR22696840	PRJNA911338	NOT FOUND	Tripidium arundinaceum	R1_genotype_missing	NOT FOUND
+SRR22696839	PRJNA911338	NOT FOUND	Saccharum robustum	R1_genotype_missing	NOT FOUND
+SRR22696838	PRJNA911338	NOT FOUND	Saccharum robustum	R1_genotype_missing	NOT FOUND
+SRR22696837	PRJNA911338	NOT FOUND	Tripidium arundinaceum	R1_genotype_missing	NOT FOUND
+SRR22696836	PRJNA911338	NOT FOUND	Tripidium arundinaceum	R1_genotype_missing	NOT FOUND
+SRR22696834	PRJNA911338	NOT FOUND	Tripidium arundinaceum	R1_genotype_missing	NOT FOUND
+SRR22696833	PRJNA911338	NOT FOUND	Saccharum robustum	R1_genotype_missing	NOT FOUND
+SRR22696832	PRJNA911338	NOT FOUND	Saccharum robustum	R1_genotype_missing	NOT FOUND
+SRR22696831	PRJNA911338	NOT FOUND	Saccharum robustum	R1_genotype_missing	NOT FOUND
+SRR22696830	PRJNA911338	NOT FOUND	Saccharum robustum	R1_genotype_missing	NOT FOUND
+SRR22696835	PRJNA911338	NOT FOUND	Tripidium arundinaceum	R1_genotype_missing	NOT FOUND
+SRR10058145	PRJNA545885	Badila	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR10058144	PRJNA545885	Badila	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR10058143	PRJNA545885	Badila	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR10058142	PRJNA545885	Badila	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR32012363	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012365	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012366	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012367	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012368	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012362	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012361	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012360	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR32012364	PRJNA1211037	SP78-4467	Saccharum sp.	R2_organism_indefinite	Saccharum sp.
+SRR6468002	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6468003	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6467997	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6467996	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6468000	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6467999	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6467998	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6468001	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR6467995	PRJNA429786	GT42	Saccharum	R2_organism_indefinite	Saccharum
+SRR13178277	PRJNA681593	Badila	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR13178276	PRJNA681593	Badila	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR29750388	PRJNA1131644	NOT FOUND	Saccharum officinarum	R1_genotype_missing	NOT FOUND
+SRR29750383	PRJNA1131644	NOT FOUND	Saccharum officinarum	R1_genotype_missing	NOT FOUND
+SRR29750384	PRJNA1131644	NOT FOUND	Saccharum officinarum	R1_genotype_missing	NOT FOUND
+SRR29750385	PRJNA1131644	NOT FOUND	Saccharum officinarum	R1_genotype_missing	NOT FOUND
+SRR29750386	PRJNA1131644	NOT FOUND	Saccharum officinarum	R1_genotype_missing	NOT FOUND
+SRR29750387	PRJNA1131644	NOT FOUND	Saccharum officinarum	R1_genotype_missing	NOT FOUND
+SRR18691858	PRJNA824938	YT71-210	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x4; Saccharum spontaneum x1
+SRR18691863	PRJNA824938	ROC22	Saccharum spontaneum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR3614506	PRJNA317338	Co 94009	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR3614505	PRJNA317338	Co 94008	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	low_depth
+SRR6432921	PRJNA428022	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR6432922	PRJNA428022	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR6432923	PRJNA428022	FN39	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	no_output
+SRR6432924	PRJNA428022	FN39	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	no_output
+SRR8771432	PRJNA528576	F1 bulk-b	Saccharum hybrid cultivar	R5_experimental_cross_progeny	F1 bulk-b
+SRR8771431	PRJNA528576	F1 bulk-a	Saccharum hybrid cultivar	R5_experimental_cross_progeny	F1 bulk-a
+SRR34747009	PRJNA1296849	Badila	Saccharum officinarum species complex	R2_organism_indefinite	Saccharum officinarum species complex
+SRR34747010	PRJNA1296849	Badila	Saccharum officinarum species complex	R2_organism_indefinite	Saccharum officinarum species complex
+SRR34747011	PRJNA1296849	Badila	Saccharum officinarum species complex	R2_organism_indefinite	Saccharum officinarum species complex
+SRR2003285	PRJNA281747	Q117	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	no_output
+SRR2003281	PRJNA281747	Q117	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	no_output
+SRR2003279	PRJNA281747	Q117	Saccharum hybrid cultivar	R4_qc_flag_mapping_independent	no_output
+SRR5980283	PRJNA379719	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR5980284	PRJNA379719	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR5980285	PRJNA379719	ROC22	Saccharum hybrid cultivar	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR9669713	PRJNA552659	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR9669714	PRJNA552659	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR9669715	PRJNA552659	Badila	Saccharum officinarum	R3_genotype_species_conflict	Saccharum officinarum x69; Saccharum hybrid cultivar (non-R570) x6; (indefinite) x3
+SRR20920369	PRJNA866695	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR20920368	PRJNA866695	ROC22	Saccharum hybrid cultivar ROC22	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR20920367	PRJNA866695	ROC22	Saccharum officinarum	R3_genotype_species_conflict	Saccharum hybrid cultivar (non-R570) x113; Saccharum officinarum x16; Saccharum spontaneum x1
+SRR2992210	PRJNA298130		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR3399436	PRJNA318726	NOT FOUND	Saccharum narenga	R1_genotype_missing	NOT FOUND
+SRR3399429	PRJNA318726	NOT FOUND	Saccharum narenga	R1_genotype_missing	NOT FOUND
+SRR849062	PRJNA198012		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR3632209	PRJNA324550	R570	Saccharum hybrid cultivar R570	R4_qc_flag_mapping_independent	fastqc_per_base_quality_fail
+SRR12737987	PRJNA666228		Saccharum officinarum	R1_genotype_missing	(empty)
+SRR15412721	PRJNA753664	IND-16-1762	Saccharum	R2_organism_indefinite	Saccharum
+SRR16103877	PRJNA756291		Saccharum spontaneum	R1_genotype_missing	(empty)

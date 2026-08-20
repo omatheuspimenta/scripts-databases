@@ -1,0 +1,15 @@
+term	estimate	ci_low	ci_high	response	analysis_set
+(Intercept)	-120.2281	-136.9631	-103.493	percent_mapped	high-confidence subset
+species_groupSaccharum hybrid cultivar (non-R570)	0.4222	-1.9896	2.834	percent_mapped	high-confidence subset
+species_groupSaccharum officinarum	0.7176	-2.6961	4.1313	percent_mapped	high-confidence subset
+species_groupSaccharum spontaneum	0.0029	-2.621	2.6268	percent_mapped	high-confidence subset
+species_groupTripidium arundinaceum (outgroup)	-3.617	-9.5175	2.2835	percent_mapped	high-confidence subset
+log_depth	27.3766	25.3639	29.3892	percent_mapped	high-confidence subset
+fastqc_raw_avg_read_length	-0.0676	-0.1198	-0.0154	percent_mapped	high-confidence subset
+(Intercept)	-110049.7694	-126133.8349	-93965.7039	genes_detected_gt0	high-confidence subset
+species_groupSaccharum hybrid cultivar (non-R570)	-7173.6917	-9520.0714	-4827.3121	genes_detected_gt0	high-confidence subset
+species_groupSaccharum officinarum	-9461.4516	-12719.8286	-6203.0746	genes_detected_gt0	high-confidence subset
+species_groupSaccharum spontaneum	-17277.4724	-19842.1999	-14712.7448	genes_detected_gt0	high-confidence subset
+species_groupTripidium arundinaceum (outgroup)	-30328.7052	-36186.8189	-24470.5915	genes_detected_gt0	high-confidence subset
+log_depth	31821.8454	29853.1405	33790.5503	genes_detected_gt0	high-confidence subset
+fastqc_raw_avg_read_length	-0.0653	-48.6633	48.5326	genes_detected_gt0	high-confidence subset

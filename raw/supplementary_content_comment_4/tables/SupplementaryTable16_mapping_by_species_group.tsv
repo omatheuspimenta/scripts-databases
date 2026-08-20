@@ -1,0 +1,6 @@
+species_group	n_runs	n_bioprojects	map_median	map_q1	map_q3	decoy_median	genes_median	genes_q1	genes_q3	depth_median_M
+R570 (reference genotype)	66	31	86.66	84.07	87.55	5.99	118366	116927	142933	10.89
+Saccharum hybrid cultivar (non-R570)	1826	61	68.34	53	80.09	11.3	110141	102104.25	118064	18.15
+Saccharum officinarum	463	27	81.51	78.95	83.51	8.78	112396	100207.5	121004.5	16.71
+Saccharum spontaneum	215	14	79.38	76	84.14	7.71	109471	101463	126678.5	24.06
+Tripidium arundinaceum (outgroup)	12	1	42.2	39.44	42.79	10.12	85571	85184	87598.5	19.24

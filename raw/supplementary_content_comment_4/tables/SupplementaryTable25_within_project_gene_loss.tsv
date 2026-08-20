@@ -1,0 +1,11 @@
+bioproject	baseline_group	comparison_group	n_baseline	n_group	genes_reliable_in_baseline	genes_lost_vs_baseline	pct_of_baseline_reliable_set	genes_gained_vs_baseline	lost_to_gained_ratio	asymmetric
+PRJEB40481	R570 (reference genotype)	Saccharum hybrid cultivar (non-R570)	36	72	85283	1117	1.31	187	5.97	yes
+PRJEB44302	Saccharum hybrid cultivar (non-R570)	Saccharum officinarum	4	4	86230	185	0.21	96	1.93	no
+PRJNA1075467	Saccharum hybrid cultivar (non-R570)	Saccharum officinarum	14	14	22089	226	1.02	104	2.17	yes
+PRJNA910660	Saccharum hybrid cultivar (non-R570)	Saccharum officinarum	6	6	90871	6668	7.34	1261	5.29	yes
+PRJEB40481	R570 (reference genotype)	Saccharum spontaneum	36	36	85283	6167	7.23	875	7.05	yes
+PRJEB44302	Saccharum hybrid cultivar (non-R570)	Saccharum spontaneum	4	3	86230	5012	5.81	962	5.21	yes
+PRJNA1135804	Saccharum officinarum	Saccharum spontaneum	12	12	88670	9240	10.42	1367	6.76	yes
+PRJNA630147	Saccharum hybrid cultivar (non-R570)	Saccharum spontaneum	216	24	70166	433	0.62	3	144.33	yes
+PRJNA910660	Saccharum hybrid cultivar (non-R570)	Saccharum spontaneum	6	6	90871	7241	7.97	1429	5.07	yes
+PRJNA770031	Saccharum hybrid cultivar (non-R570)	Tripidium arundinaceum (outgroup)	12	12	79980	9000	11.25	1280	7.03	yes

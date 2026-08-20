@@ -1,0 +1,5 @@
+species_group	n_runs_group	genes_reliable_in_R570	genes_reliable_in_group	genes_lost_vs_R570	pct_of_R570_reliable_set	genes_gained_vs_R570	lost_to_gained_ratio	lost_median_TPM_in_R570	lost_mean_TPM_in_R570	lost_pct_above_1TPM_in_R570
+Saccharum hybrid cultivar (non-R570)	1826	89789	43177	44	0.05	5	8.8	2.033	5.037	63.64
+Saccharum officinarum	463	89789	54939	229	0.26	20	11.45	1.75	3.492	68.12
+Saccharum spontaneum	215	89789	59276	165	0.18	57	2.89	2.613	4.247	86.06
+Tripidium arundinaceum (outgroup)	12	89789	61942	14633	16.3	772	18.95	2.948	7.133	83.2

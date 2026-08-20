@@ -1,0 +1,6 @@
+species_group	genes_predicted	deficit_vs_R570	pct_of_R570
+R570 (reference genotype)	121049	0	100
+Saccharum hybrid cultivar (non-R570)	113875	-7174	94.1
+Saccharum officinarum	111587	-9462	92.2
+Saccharum spontaneum	103771	-17278	85.7
+Tripidium arundinaceum (outgroup)	90720	-30329	74.9
