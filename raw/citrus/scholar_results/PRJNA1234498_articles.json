@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA1234498",
+  "articles": [
+    {
+      "title": "Regulatory effects of gibberellin and cytokinin on citrus peel cell wall metabolism",
+      "link": "https://link.springer.com/article/10.1186/s12870-025-06705-5",
+      "citations": 12,
+      "doi": "10.1186/s12870-025-06705-5",
+      "bioproject_id": "PRJNA1234498"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.270723"
+}

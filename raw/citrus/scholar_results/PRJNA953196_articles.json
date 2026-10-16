@@ -1,0 +1,42 @@
+{
+  "bioproject_id": "PRJNA953196",
+  "articles": [
+    {
+      "title": "Analysis of huanglongbing-associated RNA-seq data reveals disturbances in biological processes within Citrus spp. triggered by Candidatus Liberibacter asiaticus …",
+      "link": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1388163/full",
+      "citations": 13,
+      "doi": "10.3389/fpls.2024.1388163",
+      "bioproject_id": "PRJNA953196"
+    },
+    {
+      "title": "Integrative analysis of sulfate transporters in Citrus sinensis reveals CsSULTR3; 5 involved in pathogen stress response",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1687157X25001957",
+      "citations": 0,
+      "doi": "10.1016/j.jgeb.2025.100651",
+      "bioproject_id": "PRJNA953196"
+    },
+    {
+      "title": "Comprehensive Analysis of Genes Associated with the Reactive Oxygen Species Metabolism in Citrus sinensis during Pathogen Infection",
+      "link": "https://www.mdpi.com/2311-7524/10/6/625",
+      "citations": 6,
+      "doi": "10.3390/horticulturae10060625",
+      "bioproject_id": "PRJNA953196"
+    },
+    {
+      "title": "Analysis of huanglongbing-associated RNA-seq data reveals disturbances in biological",
+      "link": "https://books.google.com/books?hl=en&lr=&id=RMiAEQAAQBAJ&oi=fnd&pg=PA5&dq=PRJNA953196&ots=F6QrrttQ8S&sig=zPutwvn53gzR3rsz9m7jFAQhK1c",
+      "citations": 0,
+      "doi": "10.3389/fpls.2024.1388163",
+      "bioproject_id": "PRJNA953196"
+    },
+    {
+      "title": "Transcriptional reprogramming of transcription factors and transcriptional regulators in Citrus sinensis during pathogen infections",
+      "link": "https://assets-eu.researchsquare.com/files/rs-9767529/v1/f2f344ae-159d-48f1-8944-f3acb4acf224.pdf",
+      "citations": 0,
+      "doi": "10.21203/rs.3.rs-9767529/v1",
+      "bioproject_id": "PRJNA953196"
+    }
+  ],
+  "total_articles": 5,
+  "scrape_timestamp": "2026-09-01T23:49:42.444176"
+}

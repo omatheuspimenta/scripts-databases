@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA674975",
+  "articles": [
+    {
+      "title": "Abscisic Acid Deficiency Alters Epicuticular Wax Metabolism and Morphology That Leads to Increased Cuticle Permeability During Sweet Orange (Citrus sinensis) …",
+      "link": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2020.594184/full",
+      "citations": 58,
+      "doi": "10.3389/fpls.2020.594184",
+      "bioproject_id": "PRJNA674975"
+    },
+    {
+      "title": "Identification and comprehensive analyses of the CBL gene families in sweet orange (Citrus sinensisL.)",
+      "link": "https://jpmb-gabit.sanru.ac.ir/article_709799.html",
+      "citations": 4,
+      "doi": "10.1186/s12870-015-0657-4",
+      "bioproject_id": "PRJNA674975"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.277909"
+}

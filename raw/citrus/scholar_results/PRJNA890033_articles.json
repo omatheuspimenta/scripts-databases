@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA890033",
+  "articles": [
+    {
+      "title": "An Integrated Analysis of Metabolome, Transcriptome, and Physiology Revealed the Molecular and Physiological Response of Citrus sinensis Roots to …",
+      "link": "https://www.mdpi.com/2223-7747/12/14/2680",
+      "citations": 16,
+      "doi": "10.3390/plants12142680",
+      "bioproject_id": "PRJNA890033"
+    },
+    {
+      "title": "Adaptive Responses of Hormones to Nitrogen Deficiency in Citrus sinensis Leaves and Roots",
+      "link": "https://www.mdpi.com/2223-7747/13/14/1925",
+      "citations": 7,
+      "doi": "10.3390/plants13141925",
+      "bioproject_id": "PRJNA890033"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.437932"
+}

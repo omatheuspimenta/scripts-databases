@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA732832",
+  "articles": [
+    {
+      "title": "Spatial Virome Analysis of Zanthoxylum armatum Trees Affected With the Flower Yellowing Disease",
+      "link": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.702210/full",
+      "citations": 14,
+      "doi": "10.3389/fmicb.2021.702210",
+      "bioproject_id": "PRJNA732832"
+    },
+    {
+      "title": "Newly identified genomic sequences establish benchmarks for proposed taxonomic classification of jingmenviruses",
+      "link": "https://www.biorxiv.org/content/10.64898/2025.12.01.691605.abstract",
+      "citations": 0,
+      "doi": "10.64898/2025.12.01.691605",
+      "bioproject_id": "PRJNA732832"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.282262"
+}

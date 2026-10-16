@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA934070",
+  "articles": [
+    {
+      "title": "Integrated miRNA–mRNA analysis reveals candidate miRNA family regulating arbuscular mycorrhizal symbiosis of Poncirus trifoliata",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/pce.14564",
+      "citations": 13,
+      "doi": "10.1111/pce.14564",
+      "bioproject_id": "PRJNA934070"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA934070"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.363787"
+}

@@ -1,0 +1,28 @@
+{
+  "bioproject_id": "PRJNA741128",
+  "articles": [
+    {
+      "title": "Transcriptomic and physiological analysis reveals interplay between salicylic acid and drought stress in citrus tree floral initiation",
+      "link": "https://link.springer.com/article/10.1007/s00425-021-03801-2",
+      "citations": 50,
+      "doi": "10.1007/s00425-021-03801-2",
+      "bioproject_id": "PRJNA741128"
+    },
+    {
+      "title": "Identification and comprehensive analyses of the CBL gene families in sweet orange (Citrus sinensisL.)",
+      "link": "https://jpmb-gabit.sanru.ac.ir/article_709799.html",
+      "citations": 4,
+      "doi": null,
+      "bioproject_id": "PRJNA741128"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA741128"
+    }
+  ],
+  "total_articles": 3,
+  "scrape_timestamp": "2026-09-01T23:49:42.256288"
+}

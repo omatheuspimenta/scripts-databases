@@ -1,0 +1,16 @@
+analysis_set	species_group	n_runs	n_bioprojects	n_genotypes
+subset (Tables 16, 17, 20, 21)	R570 (reference genotype)	66	31	1
+subset (Tables 16, 17, 20, 21)	Saccharum hybrid cultivar (non-R570)	1826	61	116
+subset (Tables 16, 17, 20, 21)	Saccharum officinarum	463	27	29
+subset (Tables 16, 17, 20, 21)	Saccharum spontaneum	215	14	17
+subset (Tables 16, 17, 20, 21)	Tripidium arundinaceum (outgroup)	12	1	1
+mixed models (Tables 18, 19, 22)	R570 (reference genotype)	66	31	1
+mixed models (Tables 18, 19, 22)	Saccharum hybrid cultivar (non-R570)	1826	61	116
+mixed models (Tables 18, 19, 22)	Saccharum officinarum	463	27	29
+mixed models (Tables 18, 19, 22)	Saccharum spontaneum	215	14	17
+mixed models (Tables 18, 19, 22)	Tripidium arundinaceum (outgroup)	12	1	1
+sensitivity, qc_pass == PASS (Table 23)	R570 (reference genotype)	66	31	1
+sensitivity, qc_pass == PASS (Table 23)	Saccharum hybrid cultivar (non-R570)	1712	59	111
+sensitivity, qc_pass == PASS (Table 23)	Saccharum officinarum	461	27	29
+sensitivity, qc_pass == PASS (Table 23)	Saccharum spontaneum	215	14	17
+sensitivity, qc_pass == PASS (Table 23)	Tripidium arundinaceum (outgroup)	11	1	1

@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1151860",
+  "articles": [
+    {
+      "title": "Morphological and metabolic changes in Changshan Huyou (Citrus changshan-huyou) following natural tetraploidization",
+      "link": "https://link.springer.com/article/10.1186/s12870-025-06293-4",
+      "citations": 11,
+      "doi": "10.1186/s12870-025-06293-4",
+      "bioproject_id": "PRJNA1151860"
+    },
+    {
+      "title": "Morphological and metabolic changes in Changshan Huyou (Citrus aurantium) following natural tetraploidization",
+      "link": "https://assets-eu.researchsquare.com/files/rs-4984672/v1/f98d8763-aa01-428b-ab8c-1e9e28b67fb8.pdf",
+      "citations": 1,
+      "doi": "10.21203/rs.3.rs-4984672/v1",
+      "bioproject_id": "PRJNA1151860"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.289782"
+}

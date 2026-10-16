@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA793193",
+  "articles": [
+    {
+      "title": "The lemon genome and DNA methylome unveil epigenetic regulation of citric acid biosynthesis during fruit development",
+      "link": "https://academic.oup.com/hr/article-pdf/doi/10.1093/hr/uhae005/56907155/uhae005.pdf",
+      "citations": 37,
+      "doi": "10.1093/hr/uhae005",
+      "bioproject_id": "PRJNA793193"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.297049"
+}

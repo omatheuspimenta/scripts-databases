@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA906724",
+  "articles": [
+    {
+      "title": "MicroRNA miR171b positively regulates resistance to Huanglongbing of citrus",
+      "link": "https://www.mdpi.com/1422-0067/24/6/5737",
+      "citations": 18,
+      "doi": "10.3390/ijms24065737",
+      "bioproject_id": "PRJNA906724"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.423605"
+}

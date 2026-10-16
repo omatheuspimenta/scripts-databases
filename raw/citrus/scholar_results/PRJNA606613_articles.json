@@ -1,0 +1,35 @@
+{
+  "bioproject_id": "PRJNA606613",
+  "articles": [
+    {
+      "title": "Exploring the differential stages of the pigment metabolism by pre-harvest bagging and post-harvest ethylene de-greening of Eureka lemon peel",
+      "link": "https://peerj.com/articles/11504/",
+      "citations": 7,
+      "doi": "10.7717/peerj.11504",
+      "bioproject_id": "PRJNA606613"
+    },
+    {
+      "title": "柠檬转录组 SSR 标记开发及遗传多样性分析",
+      "link": "https://www.sciengine.com/parse/pdf/1008-0384/003E71A693F141E38CC3A09044B19E0F.pdf",
+      "citations": 0,
+      "doi": "10.1360/972005-1606",
+      "bioproject_id": "PRJNA606613"
+    },
+    {
+      "title": "Transcriptome-based EST-SSR Search for Analysis on Lemon Genetic Diversity",
+      "link": "https://www.sciengine.com/doi/10.19303/j.issn.1008-0384.2025.04.002",
+      "citations": 0,
+      "doi": "10.21203/rs.3.rs-7790550/v1",
+      "bioproject_id": "PRJNA606613"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA606613"
+    }
+  ],
+  "total_articles": 4,
+  "scrape_timestamp": "2026-09-01T23:49:42.406936"
+}

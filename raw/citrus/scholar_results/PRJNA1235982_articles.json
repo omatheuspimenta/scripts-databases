@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA1235982",
+  "articles": [
+    {
+      "title": "Integrated analysis of metabolome and transcriptome reveals the special flavor substances in pomelo fruits",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0304423825002717",
+      "citations": 1,
+      "doi": "10.1016/j.scienta.2025.114222",
+      "bioproject_id": "PRJNA1235982"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.309184"
+}

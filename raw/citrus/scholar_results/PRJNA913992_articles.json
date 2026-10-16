@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA913992",
+  "articles": [
+    {
+      "title": "Genome-Wide Identification and Characterization of the Sweet Orange (Citrus sinensis) GATA Family Reveals a Role for CsGATA12 as a Regulator of Citrus …",
+      "link": "https://www.mdpi.com/1422-0067/25/5/2924",
+      "citations": 11,
+      "doi": "10.3390/ijms25052924",
+      "bioproject_id": "PRJNA913992"
+    },
+    {
+      "title": "High-throughput screening system of citrus bacterial canker-associated transcription factors and its application to the regulation of citrus canker resistance",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2095311923003945",
+      "citations": 5,
+      "doi": null,
+      "bioproject_id": "PRJNA913992"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.305794"
+}

@@ -1,0 +1,42 @@
+{
+  "bioproject_id": "PRJNA640485",
+  "articles": [
+    {
+      "title": "Molecular insights from integrated metabolome-transcriptome into endophyte Bacillus subtilis L1-21 surfactin against citrus Huanglongbing",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0944501324003434",
+      "citations": 14,
+      "doi": "10.1016/j.micres.2024.127942",
+      "bioproject_id": "PRJNA640485"
+    },
+    {
+      "title": "Restructuring citrus endophytic diversity through potential indigenous endophytes could eliminate huanglongbing pathogen Candidatus Liberibacter asiaticus",
+      "link": "https://assets-eu.researchsquare.com/files/rs-74822/v1/11458beb-4425-45cf-98aa-462150895981.pdf",
+      "citations": 1,
+      "doi": null,
+      "bioproject_id": "PRJNA640485"
+    },
+    {
+      "title": "Endophyte mediated restoration of citrus microbiome and modulation of host defense genes against Candidatus Liberibacter asiaticus",
+      "link": "https://assets-eu.researchsquare.com/files/rs-2863977/v1/67e0f4c2-6171-44a5-97a6-4e2119c038a3.pdf",
+      "citations": 9,
+      "doi": "10.21203/rs.3.rs-2863977/v1",
+      "bioproject_id": "PRJNA640485"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA640485"
+    },
+    {
+      "title": "Pangenomic Approach for the Identification and Functional Characterization of Active GASA Antimicrobial Genes in Citrus Rootstocks for Resistance Breeding …",
+      "link": "https://www.mdpi.com/2223-7747/15/3/425",
+      "citations": 1,
+      "doi": null,
+      "bioproject_id": "PRJNA640485"
+    }
+  ],
+  "total_articles": 5,
+  "scrape_timestamp": "2026-09-01T23:49:42.372845"
+}

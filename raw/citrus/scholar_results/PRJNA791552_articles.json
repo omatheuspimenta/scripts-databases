@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA791552",
+  "articles": [
+    {
+      "title": "MYB308-mediated transcriptional activation of plasma membrane H+-ATPase 6 promotes iron uptake in citrus",
+      "link": "https://academic.oup.com/hr/article-abstract/doi/10.1093/hr/uhac088/6566231",
+      "citations": 31,
+      "doi": "10.1093/hr/uhac088",
+      "bioproject_id": "PRJNA791552"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.471926"
+}

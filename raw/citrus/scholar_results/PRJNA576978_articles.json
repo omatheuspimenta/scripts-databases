@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA576978",
+  "articles": [
+    {
+      "title": "Overexpressing GH3.1 and GH3.1L reduces susceptibility to Xanthomonas citri subsp. citri by repressing auxin signaling in citrus (Citrus sinensis Osbeck)",
+      "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220017",
+      "citations": 71,
+      "doi": "10.1371/journal.pone.0220017",
+      "bioproject_id": "PRJNA576978"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA576978"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.408372"
+}

@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA954191",
+  "articles": [
+    {
+      "title": "Metabolome and Transcriptome Analysis Revealed the Basis of the Difference in Antioxidant Capacity in Different Tissues of Citrus reticulata 'Ponkan'",
+      "link": "https://www.mdpi.com/2076-3921/13/2/243",
+      "citations": 6,
+      "doi": "10.3390/antiox13020243",
+      "bioproject_id": "PRJNA954191"
+    },
+    {
+      "title": "Functional characterization of a highly efficient UDP-glucosyltransferase citUGT72AZ4 involved in the biosynthesis of flavonoid glycosides in citrus",
+      "link": "https://pubs.acs.org/doi/abs/10.1021/acs.jafc.4c07454",
+      "citations": 7,
+      "doi": "10.1021/acs.jafc.4c07454.s001",
+      "bioproject_id": "PRJNA954191"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.237624"
+}

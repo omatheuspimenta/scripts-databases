@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA820365",
+  "articles": [
+    {
+      "title": "Integrated transcriptomic and metabolomic analyses reveal key genes controlling flavonoid biosynthesis in Citrus grandis 'Tomentosa'fruits",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0981942823000608",
+      "citations": 22,
+      "doi": "10.21203/rs.3.rs-1762328/v1",
+      "bioproject_id": "PRJNA820365"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA820365"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.276627"
+}

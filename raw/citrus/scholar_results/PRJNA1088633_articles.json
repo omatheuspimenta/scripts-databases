@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA1088633",
+  "articles": [
+    {
+      "title": "Comparative transcriptome and sRNAome analysis suggest coordinated citrus immune responses against Huanglongbing disease",
+      "link": "https://www.mdpi.com/2223-7747/13/11/1496",
+      "citations": 10,
+      "doi": "10.3390/plants13111496",
+      "bioproject_id": "PRJNA1088633"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.417851"
+}

@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA656116",
+  "articles": [
+    {
+      "title": "Genome-wide analysis of phasiRNAs in tea plant reveals a miR482k-PHAS regulatory pathway in response to gray blight",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0981942825010587",
+      "citations": 1,
+      "doi": "10.1016/j.plaphy.2025.110530",
+      "bioproject_id": "PRJNA656116"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.239786"
+}

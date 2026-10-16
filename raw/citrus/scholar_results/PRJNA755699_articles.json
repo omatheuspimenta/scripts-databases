@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA755699",
+  "articles": [
+    {
+      "title": "Overexpression of the salicylic acid binding protein 2 (SABP2) from tobacco enhances tolerance against Huanglongbing in transgenic citrus",
+      "link": "https://link.springer.com/article/10.1007/s00299-022-02922-6",
+      "citations": 32,
+      "doi": "10.1007/s00299-022-02922-6",
+      "bioproject_id": "PRJNA755699"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA755699"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.473883"
+}

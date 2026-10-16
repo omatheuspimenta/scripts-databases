@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA574168",
+  "articles": [
+    {
+      "title": "Differential Expression of miRNAs Involved in Response to Candidatus Liberibacter asiaticus Infection in Mexican Lime at Early and Late Stages of …",
+      "link": "https://www.mdpi.com/2223-7747/12/5/1039",
+      "citations": 13,
+      "doi": "10.3390/plants12051039",
+      "bioproject_id": "PRJNA574168"
+    },
+    {
+      "title": "Pangenomic Approach for the Identification and Functional Characterization of Active GASA Antimicrobial Genes in Citrus Rootstocks for Resistance Breeding …",
+      "link": "https://www.mdpi.com/2223-7747/15/3/425",
+      "citations": 1,
+      "doi": "10.3390/plants15030425",
+      "bioproject_id": "PRJNA574168"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.320282"
+}

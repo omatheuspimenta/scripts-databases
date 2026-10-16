@@ -1,13 +1,13 @@
 # Sugarcane RNA-seq Metadata Scripts and Databases
 
-This repository contains a collection of scripts and Jupyter notebooks designed to process, filter, and analyze metadata from sugarcane RNA-seq experiments. It includes tools for fetching missing DOIs/PMIDs, curating ontology, and generating visualizations.
+This repository contains a collection of scripts and Jupyter notebooks designed to process, filter, and analyze metadata from sugarcane RNA-seq experiments. It includes tools for fetching missing DOIs/PMIDs, curating ontology, merging run-level QC metrics, and generating visualizations.
 
 ## Repository Structure
 
 ```text
 .
 ├── figures/            # Output visualization files (PNG, SVG, Gephi)
-├── raw/                # CSV datasets, metadata files, and network graphs
+├── raw/                # CSV datasets, metadata files, network graphs, and supplementary material
 ├── scripts/            # Python scripts, Jupyter notebooks, and Bash scripts
 ├── .gitignore          # Git ignore rules
 ├── CITATION.cff        # Citation information in CFF format
@@ -29,13 +29,16 @@ The `raw/` directory contains various stages of the sugarcane RNA-seq metadata:
 - `graph_sugarcane.graphml`: Network graph of sugarcane metadata connections in GraphML format.
 - `libtype.csv`: Dataset containing library type and strandedness information from Salmon outputs.
 - `ontology_table.csv`: Reference mapping table of curated ontology terms.
+- `rna_sugarcane.csv`: Sugarcane RNA-seq metadata table used as input by `scripts/merge_qc.py`.
 - `SraRunTable.csv`: Metadata table downloaded from NCBI SRA containing run attributes.
+- `supplementary_content/`: Supplementary figures, tables, and legends added during the revision (see its [README](raw/supplementary_content/README.md)).
 - `sugarcane_omics_metadata_cleaned.csv`: Cleaned version of the omics metadata.
 - `sugarcane_rna_complete.csv`: Full RNA-seq dataset including initial metadata.
 - `sugarcane_rna_filtered.csv`: RNA-seq metadata after preliminary filtering.
 - `sugarcane_rna_relevant_filtered.csv`: Final filtered dataset containing only relevant columns.
 - `sugarcane_with_pmid.csv`: Dataset updated with PubMed IDs.
 - `sugarcane_with_pmid_with_articles_with_dois.csv`: Dataset containing PMIDs, article information, and DOIs.
+- `TableS2_run_level_qc.tsv`: Run-level QC metrics (reads, trimming, adapter content, mapping rate, etc.) for each run.
 
 ## Scripts (`scripts/`)
 
@@ -47,6 +50,7 @@ These scripts are designed for automated data retrieval and database management:
 - `create_json_db.py`: Processes CSV files to create or update a JSON-based metadata database.
 - `get_doi_from_url.py`: Uses Selenium to scrape and extract DOIs from various web URLs.
 - `get_scholar.py`: Scrapes Google Scholar to find missing DOIs and PMIDs for BioProjects.
+- `merge_qc.py`: Left-joins the RNA-seq metadata (`rna_sugarcane.csv`) with the run-level QC table (`TableS2_run_level_qc.tsv`) and writes the combined table to CSV. Paths can be overridden with `--rna`, `--qc` and `--out`.
 
 ### Jupyter Notebooks
 
@@ -70,9 +74,9 @@ These notebooks are used for interactive data processing and visualization:
 
 These scripts are used to run the `nf-core` pipelines and compress the files.
 
-- `pipeline_rnaseq_salmon.sh`: run the `nf-core` `fetchngs` and `rnaseq` using a `.csv` file with SRA IDs.
+- `pipeline_rnaseq_salmon.sh`: run the `nf-core` `fetchngs` and `rnaseq` using a `.csv` file with SRA IDs (the `nf-core/rnaseq` version is pinned to `3.22.2`).
 - `compress_runs.sh`: extract the information from the complete results and save into a `.tar.xz` file.
-- `compress_runs_parallel.sh`: Multi-threaded parallel version of `compress_runs.sh` for archiving results.
+- `compress_runs_parallel_gibbs.sh`: Multi-threaded parallel version of `compress_runs.sh` for archiving results, also keeping the Gibbs/bootstrap files required for `tximport`/`tximeta`/`fishpond` import.
 - `extract_libtype.sh`: get the libType from Salmon output.
 
 ### Gephi Project Files
@@ -87,7 +91,7 @@ These project files are used for interactive graph visual editing:
 - `completeness_plot.png` / `figure_completeness.png` / `figure1_completeness.png`: Visualizations of dataset completeness across metadata attributes.
 - `figure_panel.png`: A multi-panel visualization of the sugarcane metadata.
 - `graph.gephi` / `graph.png` / `graph.svg` / `graph2.png` / `graph2.svg`: Network graph representations showing relationships among metadata terms.
-- `graph_r1.png` / `graph_r1.svg`: Revision network graph visualizations.
+- `graph_r1.png` / `graph_r1.svg` / `graph_r2.png`: Revision network graph visualizations.
 - `growth_conditions.png`: Breakdown plot of plant growth condition categories.
 - `interface.png`: Screenshot overview of the interactive visualization interface.
 - `map.png`: Geographic distribution of the data sources.

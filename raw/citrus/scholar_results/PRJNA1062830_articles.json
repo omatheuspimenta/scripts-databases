@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1062830",
+  "articles": [
+    {
+      "title": "A haplotype-resolved chromatin landscape connects cis-regulatory variants to trait variation in Citrus",
+      "link": "https://link.springer.com/article/10.1186/s12864-025-12137-0",
+      "citations": 4,
+      "doi": "10.1186/s12864-025-12137-0",
+      "bioproject_id": "PRJNA1062830"
+    },
+    {
+      "title": "Haplotype phased genome of 'Fairchild'mandarin highlights influence of local chromatin state on gene expression",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.01.20.575729.abstract",
+      "citations": 1,
+      "doi": "10.1101/2024.01.20.575729",
+      "bioproject_id": "PRJNA1062830"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.508755"
+}

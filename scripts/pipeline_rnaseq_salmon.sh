@@ -35,6 +35,9 @@ MAX_PARALLEL=3
 CPUS_PER_JOB=44         # Burn!!!
 MEMORY_PER_JOB="240GB"  # Burn!!
 
+# Fixing nfcore/rnaseq version
+PIPELINE_VERSION="3.22.2"
+
 # Create directories
 echo "Creating directories..."
 mkdir -p "$PRIMARY_DEST" || { echo "ERROR: Cannot create PRIMARY_DEST"; exit 1; }
@@ -184,6 +187,7 @@ process_sample() {
     
     set +e
     nextflow run nf-core/rnaseq \
+        -r "$PIPELINE_VERSION" \
         --input "$SAMPLESHEET" \
         --outdir "$RESULTS_DIR" \
         --fasta "$GENOME_FA" \

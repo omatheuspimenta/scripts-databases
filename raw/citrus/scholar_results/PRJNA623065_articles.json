@@ -1,0 +1,28 @@
+{
+  "bioproject_id": "PRJNA623065",
+  "articles": [
+    {
+      "title": "Comparative analysis of the PAL gene family in nine citruses provides new insights into the stress resistance mechanism of Citrus species",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10938-3",
+      "citations": 23,
+      "doi": "10.1186/s12864-024-10938-3",
+      "bioproject_id": "PRJNA623065"
+    },
+    {
+      "title": "Transcriptome analysis of Chongyi wild mandarin, a wild species more cold-tolerant than Poncirus trifoliata, reveals key pathways in response to cold",
+      "link": "https://www.sciencedirect.com/science/article/pii/S009884722030397X",
+      "citations": 12,
+      "doi": null,
+      "bioproject_id": "PRJNA623065"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": null,
+      "bioproject_id": "PRJNA623065"
+    }
+  ],
+  "total_articles": 3,
+  "scrape_timestamp": "2026-09-01T23:49:42.402997"
+}

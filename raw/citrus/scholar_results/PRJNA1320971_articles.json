@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA1320971",
+  "articles": [
+    {
+      "title": "From reads to results: comparing Oxford Nanopore to Illumina sequencing for citrus virus surveillance",
+      "link": "https://link.springer.com/article/10.1186/s12864-026-12637-7",
+      "citations": 0,
+      "doi": "10.1186/s12864-026-12637-7",
+      "bioproject_id": "PRJNA1320971"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.495932"
+}

@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1106980",
+  "articles": [
+    {
+      "title": "The underlying mechanisms by which boron mitigates copper toxicity in Citrus sinensis leaves revealed by integrated analysis of transcriptome, metabolome and …",
+      "link": "https://academic.oup.com/treephys/article-abstract/44/9/tpae099/7728799",
+      "citations": 6,
+      "doi": "10.1093/treephys/tpae099",
+      "bioproject_id": "PRJNA1106980"
+    },
+    {
+      "title": "Boron reduces the damage of copper toxicity to Citrus sinensis cell wall structure and function via maintaining copper, calcium, magnesium, potassium and …",
+      "link": "https://academic.oup.com/treephys/article-abstract/45/10/tpaf114/8254099",
+      "citations": 1,
+      "doi": "10.1093/treephys/tpaf114",
+      "bioproject_id": "PRJNA1106980"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.369696"
+}

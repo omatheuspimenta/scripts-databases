@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1033435",
+  "articles": [
+    {
+      "title": "Transcriptome differential expression analysis of defoliation in different lemon varieties under drought treatment",
+      "link": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299261",
+      "citations": 2,
+      "doi": "10.1371/journal.pone.0299261",
+      "bioproject_id": "PRJNA1033435"
+    },
+    {
+      "title": "Transcriptome differential expression analysis of defoliation of two different lemon varieties",
+      "link": "https://peerj.com/articles/17218/",
+      "citations": 3,
+      "doi": "10.7717/peerj.17218",
+      "bioproject_id": "PRJNA1033435"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.229164"
+}

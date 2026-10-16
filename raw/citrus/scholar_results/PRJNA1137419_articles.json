@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1137419",
+  "articles": [
+    {
+      "title": "Diploid assembly of the Mexican lime genome",
+      "link": "https://academic.oup.com/g3journal/advance-article-abstract/doi/10.1093/g3journal/jkaf219/8259736",
+      "citations": 0,
+      "doi": "10.1093/g3journal/jkaf219",
+      "bioproject_id": "PRJNA1137419"
+    },
+    {
+      "title": "Genome Report: Diploid assembly of the Mexican lime genome reveals extensive heterozygosity",
+      "link": "https://www.biorxiv.org/content/10.1101/2024.09.30.615868.abstract",
+      "citations": 0,
+      "doi": "10.1101/2024.09.30.615868",
+      "bioproject_id": "PRJNA1137419"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.482692"
+}

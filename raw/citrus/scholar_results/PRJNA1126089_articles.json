@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1126089",
+  "articles": [
+    {
+      "title": "Transcriptome profiling and weighted gene correlation network analysis reveal hub genes and pathways involved in the response to polyethylene-glycol …",
+      "link": "https://www.mdpi.com/2079-7737/13/8/595",
+      "citations": 11,
+      "doi": "10.3390/biology13080595",
+      "bioproject_id": "PRJNA1126089"
+    },
+    {
+      "title": "Svelare l'Impatto Trascrizionale del Priming con SNP sulla Resilienza alla Siccità negli Agrumi",
+      "link": "https://tesidottorato.depositolegale.it/handle/20.500.14242/188521",
+      "citations": 0,
+      "doi": "10.1787/279fefe0-it",
+      "bioproject_id": "PRJNA1126089"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.483676"
+}

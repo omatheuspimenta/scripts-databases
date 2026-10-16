@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA748945",
+  "articles": [
+    {
+      "title": "Transcriptomic Analysis of the Host Response to Mild and Severe CTV Strains in Naturally Infected Citrus sinensis Orchards",
+      "link": "https://www.mdpi.com/1422-0067/23/5/2435",
+      "citations": 8,
+      "doi": "10.3390/ijms23052435",
+      "bioproject_id": "PRJNA748945"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA748945"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.494934"
+}

@@ -1,0 +1,35 @@
+{
+  "bioproject_id": "PRJNA735863",
+  "articles": [
+    {
+      "title": "Genomic conservation of crop wild relatives: A case study of citrus",
+      "link": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010811",
+      "citations": 26,
+      "doi": "10.1371/journal.pgen.1010811",
+      "bioproject_id": "PRJNA735863"
+    },
+    {
+      "title": "Structural variation and parallel evolution of apomixis in citrus during domestication and diversification",
+      "link": "https://academic.oup.com/nsr/article-abstract/9/10/nwac114/6608370",
+      "citations": 65,
+      "doi": null,
+      "bioproject_id": "PRJNA735863"
+    },
+    {
+      "title": "Genomic basis of reticulate evolution and metabolic rewiring driving carotenoid diversity in Citrinae",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/jipb.70359",
+      "citations": 0,
+      "doi": "10.1111/jipb.70359",
+      "bioproject_id": "PRJNA735863"
+    },
+    {
+      "title": "Construction of a comprehensive library of repeated sequences for the annotation of Citrus genomes",
+      "link": "https://link.springer.com/article/10.1186/s12863-025-01321-6",
+      "citations": 7,
+      "doi": "10.1186/s12863-025-01321-6",
+      "bioproject_id": "PRJNA735863"
+    }
+  ],
+  "total_articles": 4,
+  "scrape_timestamp": "2026-09-01T23:49:42.359888"
+}

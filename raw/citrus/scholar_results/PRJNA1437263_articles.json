@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA1437263",
+  "articles": [
+    {
+      "title": "Seasonal dynamics of Citrus yellow vein clearing virus using HTS and RT-qPCR reveal correlation between viral copy number and symptom expression",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2666154326002747",
+      "citations": 2,
+      "doi": "10.1016/j.jafr.2026.102904",
+      "bioproject_id": "PRJNA1437263"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.384557"
+}

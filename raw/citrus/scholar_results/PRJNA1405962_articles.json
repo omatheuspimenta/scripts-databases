@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1405962",
+  "articles": [
+    {
+      "title": "Synergistic Inoculation of Funneliformis mosseae and Pseudomonas putida Enhances Drought Resilience in Citrus reticulata Through Coordinated Physiological …",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ppl.71067",
+      "citations": 0,
+      "doi": "10.1111/ppl.71067",
+      "bioproject_id": "PRJNA1405962"
+    },
+    {
+      "title": "Funneliformis mosseae and Pseudomonas putida-symbiotic interaction promote drought resilience in Citrus reticulata",
+      "link": "https://www.biorxiv.org/content/10.64898/2026.03.12.711468.abstract",
+      "citations": 0,
+      "doi": "10.64898/2026.03.12.711468",
+      "bioproject_id": "PRJNA1405962"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.274407"
+}

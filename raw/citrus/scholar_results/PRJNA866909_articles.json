@@ -1,0 +1,14 @@
+{
+  "bioproject_id": "PRJNA866909",
+  "articles": [
+    {
+      "title": "Combined analysis of GC-MS, RNA-seq and ATAC-seq elucidates the essential oils variation and terpenes biosynthesis in Citrus grandis 'Tomentosa'",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0926669023017612",
+      "citations": 13,
+      "doi": "10.1016/j.indcrop.2023.117996",
+      "bioproject_id": "PRJNA866909"
+    }
+  ],
+  "total_articles": 1,
+  "scrape_timestamp": "2026-09-01T23:49:42.393928"
+}

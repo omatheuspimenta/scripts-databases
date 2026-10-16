@@ -1,0 +1,35 @@
+{
+  "bioproject_id": "PRJNA792482",
+  "articles": [
+    {
+      "title": "Genome-wide identification and expression analysis of the SOD gene family under biotic and abiotic stresses in sweet orange",
+      "link": "https://link.springer.com/article/10.1007/s11816-024-00913-5",
+      "citations": 4,
+      "doi": "10.1007/s11816-024-00913-5",
+      "bioproject_id": "PRJNA792482"
+    },
+    {
+      "title": "Pangenome-wide analysis of cyclic nucleotide-gated channel (CNGC) gene family in citrus Spp. Revealed their intraspecies diversity and potential roles in abiotic …",
+      "link": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1034921/full",
+      "citations": 37,
+      "doi": null,
+      "bioproject_id": "PRJNA792482"
+    },
+    {
+      "title": "Comparative analysis of the PAL gene family in nine citruses provides new insights into the stress resistance mechanism of Citrus species",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10938-3",
+      "citations": 23,
+      "doi": "10.1186/s12864-024-10938-3",
+      "bioproject_id": "PRJNA792482"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": null,
+      "bioproject_id": "PRJNA792482"
+    }
+  ],
+  "total_articles": 4,
+  "scrape_timestamp": "2026-09-01T23:49:42.313922"
+}

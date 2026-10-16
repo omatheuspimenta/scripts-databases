@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA894942",
+  "articles": [
+    {
+      "title": "Nanopore long-read RNAseq reveals transcriptional variations in citrus species",
+      "link": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2022.1077797/full",
+      "citations": 12,
+      "doi": "10.3389/fpls.2022.1077797",
+      "bioproject_id": "PRJNA894942"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA894942"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.399443"
+}

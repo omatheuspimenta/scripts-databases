@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA749665",
+  "articles": [
+    {
+      "title": "Albedo- and Flavedo-Specific Transcriptome Profiling Related to Penicillium digitatum Infection in Citrus Fruit",
+      "link": "https://www.mdpi.com/2304-8158/10/9/2196",
+      "citations": 8,
+      "doi": "10.3390/foods10092196",
+      "bioproject_id": "PRJNA749665"
+    },
+    {
+      "title": "The Role of ABA in the Interaction between Citrus Fruit and Penicillium digitatum",
+      "link": "https://www.mdpi.com/1422-0067/23/24/15796",
+      "citations": 11,
+      "doi": null,
+      "bioproject_id": "PRJNA749665"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.311991"
+}

@@ -1,0 +1,42 @@
+{
+  "bioproject_id": "PRJNA340305",
+  "articles": [
+    {
+      "title": "Genomic analyses of primitive, wild and cultivated citrus provide insights into asexual reproduction",
+      "link": "https://www.nature.com/articles/ng.3839",
+      "citations": 522,
+      "doi": "10.1038/ng.3839",
+      "bioproject_id": "PRJNA340305"
+    },
+    {
+      "title": "Evolutionary dynamics of linc RNA transcription in nine citrus species",
+      "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/tpj.14279",
+      "citations": 44,
+      "doi": "10.1111/tpj.14279",
+      "bioproject_id": "PRJNA340305"
+    },
+    {
+      "title": "The lemon genome and DNA methylome unveil epigenetic regulation of citric acid biosynthesis during fruit development",
+      "link": "https://academic.oup.com/hr/article-pdf/doi/10.1093/hr/uhae005/56907155/uhae005.pdf",
+      "citations": 37,
+      "doi": "10.1093/hr/uhae005",
+      "bioproject_id": "PRJNA340305"
+    },
+    {
+      "title": "Identification and comprehensive analyses of the CBL gene families in sweet orange (Citrus sinensisL.)",
+      "link": "https://jpmb-gabit.sanru.ac.ir/article_709799.html",
+      "citations": 4,
+      "doi": "10.1186/s12870-015-0657-4",
+      "bioproject_id": "PRJNA340305"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA340305"
+    }
+  ],
+  "total_articles": 5,
+  "scrape_timestamp": "2026-09-01T23:49:42.294803"
+}

@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA702620",
+  "articles": [
+    {
+      "title": "Adaptive Responses of Citrus grandis Leaves to Copper Toxicity Revealed by RNA-Seq and Physiology",
+      "link": "https://www.mdpi.com/1422-0067/22/21/12023",
+      "citations": 36,
+      "doi": "10.3390/ijms222112023",
+      "bioproject_id": "PRJNA702620"
+    },
+    {
+      "title": "Comparative analysis of the PAL gene family in nine citruses provides new insights into the stress resistance mechanism of Citrus species",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10938-3",
+      "citations": 23,
+      "doi": "10.1186/s12864-024-10938-3",
+      "bioproject_id": "PRJNA702620"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.437030"
+}

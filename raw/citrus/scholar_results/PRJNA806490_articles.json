@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA806490",
+  "articles": [
+    {
+      "title": "A Transcriptome Analysis of Poncirus trifoliata, an Aurantioideae Species Tolerant to Asian Citrus Psyllid, Has Identified Potential Genes and Events …",
+      "link": "https://www.mdpi.com/2075-4450/15/8/589",
+      "citations": 2,
+      "doi": "10.3390/insects15080589",
+      "bioproject_id": "PRJNA806490"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA806490"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.329637"
+}

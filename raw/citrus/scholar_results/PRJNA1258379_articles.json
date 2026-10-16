@@ -1,0 +1,21 @@
+{
+  "bioproject_id": "PRJNA1258379",
+  "articles": [
+    {
+      "title": "Mechanistic dissection of Candidatus Liberibacter Triggered Chronic Immune Disease",
+      "link": "https://www.biorxiv.org/content/10.1101/2025.05.21.654963.abstract",
+      "citations": 7,
+      "doi": "10.1101/2025.05.21.654963",
+      "bioproject_id": "PRJNA1258379"
+    },
+    {
+      "title": "Immune activation by a phloem-colonizing plant pathogen drives citrus Huanglongbing disease development",
+      "link": "https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00167-8",
+      "citations": 5,
+      "doi": "10.1016/j.chom.2026.04.011",
+      "bioproject_id": "PRJNA1258379"
+    }
+  ],
+  "total_articles": 2,
+  "scrape_timestamp": "2026-09-01T23:49:42.347078"
+}

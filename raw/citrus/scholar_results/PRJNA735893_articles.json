@@ -1,0 +1,28 @@
+{
+  "bioproject_id": "PRJNA735893",
+  "articles": [
+    {
+      "title": "A chromosome-level phased genome enabling allele-level studies in sweet orange: a case study on citrus Huanglongbing tolerance",
+      "link": "https://academic.oup.com/hr/article-abstract/10/1/uhac247/6794931",
+      "citations": 49,
+      "doi": "10.1093/hr/uhac247",
+      "bioproject_id": "PRJNA735893"
+    },
+    {
+      "title": "A chromosome-level phased Citrus sinensis genome facilitates understanding Huanglongbing tolerance mechanisms at the allelic level in an irradiation-induced …",
+      "link": "https://www.biorxiv.org/content/10.1101/2022.02.05.479263.abstract",
+      "citations": 5,
+      "doi": "10.1101/2022.02.05.479263",
+      "bioproject_id": "PRJNA735893"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": null,
+      "bioproject_id": "PRJNA735893"
+    }
+  ],
+  "total_articles": 3,
+  "scrape_timestamp": "2026-09-01T23:49:42.389232"
+}

@@ -1,0 +1,28 @@
+{
+  "bioproject_id": "PRJNA780217",
+  "articles": [
+    {
+      "title": "Citrus Huanglongbing is a pathogen-triggered immune disease that can be mitigated with antioxidants and gibberellin",
+      "link": "https://www.nature.com/articles/s41467-022-28189-9",
+      "citations": 269,
+      "doi": "10.1038/s41467-022-28189-9",
+      "bioproject_id": "PRJNA780217"
+    },
+    {
+      "title": "Pangenomic Approach for the Identification and Functional Characterization of Active GASA Antimicrobial Genes in Citrus Rootstocks for Resistance Breeding …",
+      "link": "https://www.mdpi.com/2223-7747/15/3/425",
+      "citations": 1,
+      "doi": "10.3390/plants15030425",
+      "bioproject_id": "PRJNA780217"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": null,
+      "bioproject_id": "PRJNA780217"
+    }
+  ],
+  "total_articles": 3,
+  "scrape_timestamp": "2026-09-01T23:49:42.411248"
+}

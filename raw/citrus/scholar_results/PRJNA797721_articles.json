@@ -1,0 +1,28 @@
+{
+  "bioproject_id": "PRJNA797721",
+  "articles": [
+    {
+      "title": "An effector of 'Candidatus Liberibacter asiaticus' manipulates autophagy to promote bacterial infection",
+      "link": "https://academic.oup.com/jxb/article-abstract/74/15/4670/7160136",
+      "citations": 55,
+      "doi": "10.1093/jxb/erad176",
+      "bioproject_id": "PRJNA797721"
+    },
+    {
+      "title": "Comparative genomics profiling of Citrus species reveals the diversity and disease responsiveness of the GLP pangenes family",
+      "link": "https://link.springer.com/article/10.1186/s12870-025-06397-x",
+      "citations": 8,
+      "doi": "10.1186/s12870-025-06397-x",
+      "bioproject_id": "PRJNA797721"
+    },
+    {
+      "title": "OrangeExpDB: an integrative gene expression database for Citrus spp.",
+      "link": "https://link.springer.com/article/10.1186/s12864-024-10445-5",
+      "citations": 3,
+      "doi": "10.1186/s12864-024-10445-5",
+      "bioproject_id": "PRJNA797721"
+    }
+  ],
+  "total_articles": 3,
+  "scrape_timestamp": "2026-09-01T23:49:42.374384"
+}
