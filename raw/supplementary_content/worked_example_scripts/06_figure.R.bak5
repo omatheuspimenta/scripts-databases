@@ -1,0 +1,197 @@
+#!/usr/bin/env Rscript
+# STEP 5b -- the worked-example figure.
+# Panels A/B are hand-built UpSet plots in ggplot2: UpSetR 1.4.1 draws straight to the
+# device and returns no ggplot object, so it cannot be composed with patchwork, and it
+# cannot render a zero-size set (PRJNA811175). Panel C is the GO enrichment of the cores.
+suppressPackageStartupMessages({library(data.table); library(ggplot2); library(patchwork)
+                               library(grid)})
+
+ROOT <- "/home/jorge/sweet_recycler_fixes/13_comment/example"
+WORK <- file.path(ROOT, "work/step5")
+OUT  <- file.path(ROOT, "out")
+o <- readRDS(file.path(WORK, "step5_objects.rds"))
+
+COL_UP <- "#B4451F"; COL_DN <- "#1F5F7A"
+COL_PALE_UP <- "#E3B9A7"; COL_PALE_DN <- "#A8C7D6"
+COL_GREY <- "#9BA3A7"; INK <- "#1A1A1A"
+
+base <- theme_bw(base_size = 8) +
+  theme(text = element_text(colour = INK, size = 8),
+        panel.background = element_rect(fill = "white", colour = NA),
+        plot.background  = element_rect(fill = "white", colour = NA),
+        panel.grid.minor = element_blank(),
+        panel.grid.major = element_line(colour = "#E6E8EA", linewidth = 0.25),
+        panel.border = element_blank(),
+        axis.line = element_line(colour = INK, linewidth = 0.3),
+        axis.ticks = element_line(colour = INK, linewidth = 0.3),
+        axis.text = element_text(size = 7, colour = INK),
+        axis.title = element_text(size = 8),
+        legend.position = "none",
+        plot.margin = margin(1, 1, 1, 1))
+
+# shared set order for A and B; the empty set is pinned last and stays visible
+ss <- dcast(o$setsize, bioproject ~ direction, value.var = "set_size")[, tot := up + down][]
+set_order <- ss[order(-tot), bioproject]
+set_order <- c(setdiff(set_order, "PRJNA811175"), "PRJNA811175")
+# ONE row ordering, derived once and used verbatim by the label axis, the dot matrix
+# and the side bars. ROW_LEVELS is bottom-to-top (ggplot discrete axes build upwards).
+ROW_LEVELS <- rev(set_order)
+
+make_upset <- function(dir_, tag) {
+  col  <- if (dir_ == "up") COL_UP else COL_DN
+  ints <- copy(as.data.table(o$upset)[direction == dir_ & n_genes > 0])
+  setorder(ints, -degree, -n_genes)                    # degree, then size
+  ints[, idx := .I][, is_core := degree >= 4]
+  ymax <- max(ints$n_genes)
+
+  top <- ggplot(ints, aes(idx, n_genes, fill = is_core)) +
+    geom_col(width = 0.66) +
+    geom_text(aes(label = format(n_genes, big.mark = ",")),
+              hjust = -0.12, size = 2.5, colour = INK, angle = 90) +
+    annotate("rect", xmin = 0.85, xmax = 1.45, ymin = ymax * 1.255, ymax = ymax * 1.315,
+             fill = col, colour = NA) +
+    annotate("text", x = 1.7, y = ymax * 1.285, hjust = 0, size = 2.5,
+             colour = INK, label = "core: DE in \u2265 4 of 5 BioProjects") +
+    scale_fill_manual(values = c(`TRUE` = col, `FALSE` = COL_GREY)) +
+    scale_x_continuous(limits = c(0.4, nrow(ints) + 0.6), expand = c(0, 0)) +
+    scale_y_continuous(expand = expansion(mult = c(0, 0.42)),
+                       labels = function(x) format(x, big.mark = ",")) +
+    labs(y = "Genes in intersection", x = NULL) +
+    base + theme(axis.text.x = element_blank(), axis.ticks.x = element_blank(),
+                 axis.line.x = element_blank(), panel.grid.major.x = element_blank(),
+                 plot.margin = margin(1, 1, 0, 1))
+
+  grid_dt <- CJ(idx = ints$idx, bioproject = set_order, sorted = FALSE)
+  grid_dt[, member := mapply(function(i, b) b %in% strsplit(ints$combination[i], "\\|")[[1]],
+                             idx, bioproject)]
+  grid_dt[, bioproject := factor(bioproject, levels = ROW_LEVELS)]
+  seg <- grid_dt[member == TRUE, .(ymin = min(as.integer(bioproject)),
+                                   ymax = max(as.integer(bioproject))), by = idx]
+  mat <- ggplot() +
+    geom_tile(data = grid_dt[as.integer(bioproject) %% 2 == 1],
+              aes(idx, bioproject), fill = "#F1F3F4", width = 1, height = 1) +
+    geom_point(data = grid_dt, aes(idx, bioproject), colour = "#D3D7DA", size = 1.45) +
+    geom_segment(data = seg, aes(x = idx, xend = idx, y = ymin, yend = ymax),
+                 colour = col, linewidth = 0.45) +
+    geom_point(data = grid_dt[member == TRUE], aes(idx, bioproject),
+               colour = col, size = 1.45) +
+    scale_x_continuous(limits = c(0.4, nrow(ints) + 0.6), expand = c(0, 0)) +
+    # limits + drop = FALSE are LOAD-BEARING: with the default drop = TRUE the scale
+    # takes its level order from first appearance across layers, and the striping
+    # geom_tile layer (alternate rows only) silently reorders the matrix rows.
+    scale_y_discrete(limits = ROW_LEVELS, drop = FALSE, expand = c(0, 0)) +
+    labs(x = NULL, y = NULL) +
+    base + theme(axis.text.x = element_blank(), axis.ticks = element_blank(),
+                 axis.line = element_blank(), panel.grid = element_blank(),
+                 axis.text.y = element_text(size = 7, hjust = 1),
+                 plot.margin = margin(0, 1, 1, 1))
+
+  sz <- copy(as.data.table(o$setsize)[direction == dir_])
+  sz[, bioproject := factor(bioproject, levels = ROW_LEVELS)]
+  side <- ggplot(sz, aes(bioproject, set_size)) +
+    geom_col(width = 0.58, fill = COL_GREY) +
+    scale_x_discrete(limits = ROW_LEVELS, drop = FALSE) +
+    geom_text(aes(label = format(set_size, big.mark = ",")),
+              hjust = -0.18, size = 2.5, colour = INK) +
+    scale_y_reverse(expand = expansion(mult = c(0.40, 0.26)),
+                    breaks = scales::pretty_breaks(2),
+                    labels = function(x) format(abs(x), big.mark = ",")) +
+    coord_flip(clip = "off") + labs(x = NULL, y = "Set size") +
+    base + theme(axis.text.y = element_blank(), axis.ticks.y = element_blank(),
+                 axis.line.y = element_blank(), panel.grid.major.y = element_blank(),
+                 plot.margin = margin(0, 0, 1, 1))
+
+  lab <- wrap_elements(full = textGrob(tag, x = 0.02, y = 0.99, hjust = 0, vjust = 1,
+                                       gp = gpar(fontsize = 10, fontface = "bold",
+                                                 col = INK)))
+  design <- "DBBBBB\nDBBBBB\nDBBBBB\nACCCCC"
+  list(p = wrap_plots(A = side, B = top, C = mat, D = lab, design = design,
+                      widths = c(2.3, 1, 1, 1, 1, 1)),
+       mat = mat, side = side)
+}
+
+ua <- make_upset("up",   "A"); pa <- ua$p
+ub <- make_upset("down", "B"); pb <- ub$p
+
+# ---- ALIGNMENT ASSERTION ----------------------------------------------------
+# Fails loudly if the dot-matrix rows, the row labels and the side bars ever
+# disagree, or if any drawn bar differs from the set size recomputed from the
+# toptables. A silent misalignment must not be possible again.
+TOP_DIR <- file.path(ROOT, "out/de")
+true_size <- function(dir_) {
+  sapply(o$projects, function(pj) {
+    d <- data.table::fread(file.path(TOP_DIR, paste0(pj, "_toptable.tsv")))
+    d <- d[in_universe == TRUE & adj.P.Val < 0.05]
+    if (dir_ == "up") nrow(d[logFC > 1]) else nrow(d[logFC < -1])
+  })
+}
+verify <- function(u, dir_, tag) {
+  lab_mat  <- ggplot_build(u$mat )$layout$panel_params[[1]]$y$get_labels()
+  lab_side <- ggplot_build(u$side)$layout$panel_params[[1]]$y$get_labels()
+  stopifnot(identical(lab_mat, lab_side))           # matrix rows == side-bar rows
+  stopifnot(identical(lab_mat, ROW_LEVELS))         # ... and both == the one ordering
+  # y is negated by scale_y_reverse, so compare magnitudes
+  bars <- as.data.table(ggplot_build(u$side)$data[[1]])[, .(pos = as.integer(x), drawn = abs(y))]
+  bars[, row_label := lab_side[pos]]
+  tv <- true_size(dir_)
+  bars[, truth := tv[row_label]]
+  stopifnot(identical(as.integer(bars$drawn), as.integer(bars$truth)))
+  out <- bars[order(-pos), .(row = seq_len(.N), row_label, bar_drawn = as.integer(drawn),
+                             truth, ok = ifelse(drawn == truth, "MATCH", "MISMATCH"))]
+  cat(sprintf("\n-- panel %s (%s), top row first --\n", tag, dir_)); print(out)
+  invisible(out)
+}
+va <- verify(ua, "up", "A"); vb <- verify(ub, "down", "B")
+cat("\nALIGNMENT ASSERTIONS PASSED for both panels\n")
+
+# ---- panel C: GO enrichment of the two core sets ---------------------------
+trunc_name <- function(x, n = 33) ifelse(nchar(x) > n, paste0(substr(x, 1, n - 1), "…"), x)
+topn <- function(res, lab, n = 10) {
+  d <- copy(as.data.table(res))[order(p_value)][1:n]
+  d[, `:=`(dir = lab, label = trunc_name(name), sig = fdr < 0.05,
+           nlf = -log10(fdr), ratio = paste0(n_core, "/", n_universe))]
+  d[, label := factor(label, levels = rev(label))][]
+}
+gu <- topn(o$eu, "Up in drought (n = 221)")
+gd <- topn(o$ed, "Down in drought (n = 439)")
+gg <- rbind(gu, gd)
+gg[, dir := factor(dir, levels = c("Up in drought (n = 221)",
+                                   "Down in drought (n = 439)"))]
+gg[, fillkey := paste0(ifelse(grepl("^Up", dir), "up", "down"), ifelse(sig, "_sig", "_ns"))]
+
+pc <- ggplot(gg, aes(nlf, label, fill = fillkey)) +
+  geom_vline(xintercept = -log10(0.05), linetype = "22", linewidth = 0.3, colour = "#555B5E") +
+  geom_col(width = 0.66) +
+  geom_text(aes(label = ratio), hjust = -0.2, size = 2.5, colour = INK) +
+  scale_fill_manual(values = c(up_sig = COL_UP, up_ns = COL_PALE_UP,
+                               down_sig = COL_DN, down_ns = COL_PALE_DN)) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.36))) +
+  facet_wrap(~ dir, scales = "free", nrow = 1) +
+  labs(x = expression(-log[10] * "(BH-adjusted " * italic(p) * ")"), y = NULL) +
+  base + theme(strip.background = element_rect(fill = "#ECEEEF", colour = NA),
+               strip.text = element_text(size = 8, face = "bold", margin = margin(2,2,2,2)),
+               panel.grid.major.y = element_blank(),
+               axis.text.y = element_text(size = 7),
+               plot.margin = margin(1, 2, 1, 1))
+lab_c <- wrap_elements(full = textGrob("C", x = 0.02, y = 0.99, hjust = 0, vjust = 1,
+                                       gp = gpar(fontsize = 10, fontface = "bold", col = INK)))
+pC <- wrap_plots(L = lab_c, P = pc, design = "LPPPPPPPPPPPPPPPPPPPPPPP")
+
+fig <- (pa | pb) / pC + plot_layout(heights = c(1, 0.95))
+
+W <- 180 / 25.4; H <- 200 / 25.4
+ggsave(file.path(OUT, "Figure_worked_example.pdf"), fig, width = W, height = H,
+       units = "in", device = grDevices::cairo_pdf)
+ggsave(file.path(OUT, "Figure_worked_example.png"), fig, width = W, height = H,
+       units = "in", dpi = 600, bg = "white")
+ggsave(file.path(OUT, "Figure_worked_example.svg"), fig, width = W, height = H,
+       units = "in", device = svglite::svglite, bg = "white")
+
+cat("set order:", paste(set_order, collapse = " > "), "\n")
+cat(sprintf("A intersections: %d, max %d; B intersections: %d, max %d\n",
+    o$upset[direction=="up" & n_genes>0, .N], o$upset[direction=="up", max(n_genes)],
+    o$upset[direction=="down" & n_genes>0, .N], o$upset[direction=="down", max(n_genes)]))
+cat(sprintf("figure: %.2f x %.2f in = %.1f x %.1f mm\n", W, H, W*25.4, H*25.4))
+print(file.info(file.path(OUT, paste0("Figure_worked_example.", c("pdf","png","svg"))))["size"])
+cat("non-significant terms shown -- up:", gu[sig == FALSE, .N], " down:", gd[sig == FALSE, .N], "\n")
+cat("truncated term labels:", sum(grepl("…", as.character(gg$label))), "\n")

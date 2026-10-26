@@ -1,0 +1,185 @@
+#!/usr/bin/env Rscript
+# STEP 5a -- core sets, tallies, discordance, reference-bias accounting, GO enrichment.
+# Re-runnable from scratch. Paths are constants here; nothing outside ROOT is written.
+suppressPackageStartupMessages({library(data.table)})
+
+ROOT     <- "/home/jorge/sweet_recycler_fixes/13_comment/example"
+DE_DIR   <- file.path(ROOT, "out/de")
+OUT      <- file.path(ROOT, "out")
+WORK     <- file.path(ROOT, "work/step5")
+GENE2GO  <- file.path(OUT, "gene2go.tsv")
+GO_TERMS <- file.path(OUT, "go_terms.tsv")
+TAB26    <- "/home/jorge/sweet_recycler_fixes/4_comment/tables/SupplementaryTable26_lost_gene_ids.tsv"
+DEFLINE  <- "/home/jorge/sweet_recycler_fixes/sugarcane_reference/sugarcane/annotation/SofficinarumxspontaneumR570_771_v2.1.defline.txt"
+PROJECTS <- c("PRJNA1127307","PRJNA628529","PRJNA776107","PRJNA808768","PRJNA811175")
+FDR <- 0.05; LFC <- 1
+dir.create(WORK, showWarnings=FALSE, recursive=TRUE)
+dir.create(file.path(OUT,"go"), showWarnings=FALSE, recursive=TRUE)
+
+universe <- fread(file.path(DE_DIR,"universe.txt"), header=FALSE)$V1
+cat("universe:", length(universe), " unique:", uniqueN(universe), "\n")
+
+tt <- lapply(PROJECTS, function(p) {
+  d <- fread(file.path(DE_DIR, paste0(p,"_toptable.tsv")))
+  stopifnot(!anyDuplicated(d$gene_id))
+  d[in_universe == TRUE]
+})
+names(tt) <- PROJECTS
+
+# --- per-study DE sets, within the universe -----------------------------------
+up <- lapply(tt, function(d) d[adj.P.Val < FDR & logFC >  LFC, gene_id])
+dn <- lapply(tt, function(d) d[adj.P.Val < FDR & logFC < -LFC, gene_id])
+cat("\n-- per-study counts within the universe (up / down) --\n")
+for (p in PROJECTS) {
+  stopifnot(all(tt[[p]]$gene_id %in% universe))
+  cat(sprintf("%-13s n_universe_tested=%6d  up=%6d  down=%6d\n",
+              p, nrow(tt[[p]]), length(up[[p]]), length(dn[[p]])))
+}
+
+tally <- function(sets) {
+  n <- table(factor(unlist(sets), levels=universe))
+  sapply(1:5, function(k) sum(n == k))
+}
+tu <- tally(up); td <- tally(dn)
+cat("\nk-tally up  :", paste(sprintf("k=%d %d", 1:5, tu), collapse="  "), "\n")
+cat(  "k-tally down:", paste(sprintf("k=%d %d", 1:5, td), collapse="  "), "\n")
+
+nstud_up <- table(factor(unlist(up), levels=universe))
+nstud_dn <- table(factor(unlist(dn), levels=universe))
+core_up <- names(nstud_up)[nstud_up >= 4]
+core_dn <- names(nstud_dn)[nstud_dn >= 4]
+cat(sprintf("\nCORE (>=4 of 5): %d up / %d down\n", length(core_up), length(core_dn)))
+
+# --- discordance --------------------------------------------------------------
+disc <- intersect(names(nstud_up)[nstud_up >= 1], names(nstud_dn)[nstud_dn >= 1])
+cat(sprintf("discordant genes (up in >=1 and down in >=1): %d\n", length(disc)))
+cat(sprintf("discordant genes that are in a core set: %d  (core after removing them: %d up / %d down)\n",
+            length(intersect(disc, c(core_up, core_dn))),
+            length(setdiff(core_up, disc)), length(setdiff(core_dn, disc))))
+
+# --- 3-study sensitivity + Jaccard -------------------------------------------
+INF3 <- c("PRJNA1127307","PRJNA776107","PRJNA808768")
+i3u <- Reduce(intersect, up[INF3]); i3d <- Reduce(intersect, dn[INF3])
+cat(sprintf("\n3-study intersection (%s): %d up / %d down\n", paste(INF3,collapse="+"), length(i3u), length(i3d)))
+r3u <- intersect(i3u, up[["PRJNA628529"]]); r3d <- intersect(i3d, dn[["PRJNA628529"]])
+cat(sprintf("  also DE in PRJNA628529: %d up (%.1f%%) / %d down (%.1f%%)\n",
+            length(r3u), 100*length(r3u)/length(i3u), length(r3d), 100*length(r3d)/length(i3d)))
+INF4 <- setdiff(PROJECTS, "PRJNA811175")
+jac <- function(a,b) length(intersect(a,b))/length(union(a,b))
+jtab <- rbindlist(lapply(combn(INF4,2,simplify=FALSE), function(pr)
+  data.table(a=pr[1], b=pr[2], jaccard_up=jac(up[[pr[1]]],up[[pr[2]]]),
+             jaccard_down=jac(dn[[pr[1]]],dn[[pr[2]]]))))
+print(jtab)
+cat(sprintf("Jaccard up range: %.3f - %.3f ; down range: %.3f - %.3f\n",
+            min(jtab$jaccard_up), max(jtab$jaccard_up), min(jtab$jaccard_down), max(jtab$jaccard_down)))
+fwrite(jtab, file.path(WORK,"pairwise_jaccard.tsv"), sep="\t")
+
+# --- UpSet intersection table (exact combinations) ---------------------------
+combo_tab <- function(sets, direction) {
+  g <- sort(unique(unlist(sets)))
+  if (!length(g)) return(data.table())
+  m <- sapply(PROJECTS, function(p) g %in% sets[[p]])
+  key <- apply(m, 1, function(r) paste(PROJECTS[r], collapse="|"))
+  d <- data.table(gene_id=g, combination=key, degree=rowSums(m))
+  d[, .(direction=direction, n_genes=.N), by=.(combination, degree)][order(-n_genes)]
+}
+upset_dt <- rbind(combo_tab(up,"up"), combo_tab(dn,"down"))
+setcolorder(upset_dt, c("direction","combination","degree","n_genes"))
+setsize <- rbind(
+  data.table(direction="up",   bioproject=PROJECTS, set_size=sapply(PROJECTS, function(p) length(up[[p]]))),
+  data.table(direction="down", bioproject=PROJECTS, set_size=sapply(PROJECTS, function(p) length(dn[[p]]))))
+fwrite(upset_dt, file.path(OUT,"upset_data.tsv"), sep="\t")
+fwrite(setsize,  file.path(WORK,"upset_setsizes.tsv"), sep="\t")
+cat(sprintf("\nupset_data.tsv: %d combination rows (up %d, down %d); max degree %d\n",
+            nrow(upset_dt), sum(upset_dt$direction=="up"), sum(upset_dt$direction=="down"), max(upset_dt$degree)))
+cat("sum of combination sizes up =", upset_dt[direction=="up", sum(n_genes)],
+    " down =", upset_dt[direction=="down", sum(n_genes)], "\n")
+
+# --- reference-bias accounting -----------------------------------------------
+t26 <- fread(TAB26)
+stopifnot(!anyDuplicated(t26$gene))
+t26[, sacch_flag := (lost_in_Saccharum_hybrid_cultivar=="yes" |
+                     lost_in_Saccharum_officinarum=="yes" |
+                     lost_in_Saccharum_spontaneum=="yes")]
+cat(sprintf("\nTable 26: %d genes; %d flagged lost in >=1 Saccharum taxon; %d in the universe\n",
+            nrow(t26), sum(t26$sacch_flag), sum(t26$gene %in% universe)))
+flagged <- t26[sacch_flag == TRUE, gene]
+trip    <- t26[lost_in_Tripidium_arundinaceum=="yes", gene]
+for (nm in c("up","down")) {
+  cg <- if (nm=="up") core_up else core_dn
+  inT26 <- intersect(cg, t26$gene)
+  fl <- intersect(cg, flagged)
+  cat(sprintf("core %-4s: n=%d ; in Table 26 at all=%d ; Saccharum-flagged=%d (%.1f%%) ; core without flagged=%d ; Tripidium-only-lost=%d\n",
+      nm, length(cg), length(inT26), length(fl), 100*length(fl)/length(cg), length(cg)-length(fl),
+      length(intersect(setdiff(trip, flagged), cg))))
+}
+
+# --- defline (transcript-level: needs the .v2.1 -> transcript mapping) -------
+dl <- fread(DEFLINE, sep="\t", header=FALSE, quote="", col.names=c("tx","tag","defline"))
+dl[, locus := sub("\\.[0-9]+$", "", tx)]
+dl[, txn := as.integer(sub("^.*\\.([0-9]+)$", "\\1", tx))]
+setorder(dl, locus, txn)
+dl1 <- dl[, .SD[1], by=locus]
+dl1[, gene_id := paste0(locus, ".v2.1")]
+cat(sprintf("\ndefline: %d rows, %d loci; %d of the %d universe genes have a defline\n",
+            nrow(dl), nrow(dl1), sum(universe %in% dl1$gene_id), length(universe)))
+
+core <- rbind(
+  data.table(gene_id=core_up, direction="up"),
+  data.table(gene_id=core_dn, direction="down"))
+core[, n_studies := ifelse(direction=="up", as.integer(nstud_up[gene_id]), as.integer(nstud_dn[gene_id]))]
+core[, studies := mapply(function(g,d) paste(PROJECTS[sapply(PROJECTS, function(p) g %in% (if (d=="up") up[[p]] else dn[[p]]))], collapse=","),
+                         gene_id, direction)]
+core[, ref_bias_flag := ifelse(gene_id %in% flagged, "yes", "no")]
+core <- merge(core, dl1[, .(gene_id, defline)], by="gene_id", all.x=TRUE)
+core[is.na(defline), defline := ""]
+setorder(core, direction, -n_studies, gene_id)
+setcolorder(core, c("gene_id","direction","n_studies","studies","ref_bias_flag","defline"))
+fwrite(core, file.path(OUT,"core_sets.tsv"), sep="\t")
+cat(sprintf("core_sets.tsv: %d rows (%d up, %d down); blank deflines %d\n",
+            nrow(core), sum(core$direction=="up"), sum(core$direction=="down"), sum(core$defline=="")))
+
+# --- GO enrichment (BP only, hypergeometric + BH) ----------------------------
+g2g <- fread(GENE2GO); gt <- fread(GO_TERMS)
+stopifnot(!anyDuplicated(gt$go_id))
+g2g <- merge(g2g, gt, by="go_id", all.x=TRUE)
+cat(sprintf("\ngene-GO pairs: %d ; unresolved go_id (obsolete/absent from go_terms): %d (%.1f%%) over %d distinct terms\n",
+            nrow(g2g), sum(is.na(g2g$namespace)), 100*sum(is.na(g2g$namespace))/nrow(g2g),
+            uniqueN(g2g[is.na(namespace), go_id])))
+bp <- g2g[namespace == "biological_process" & gene_id %in% universe]
+go_univ <- unique(bp$gene_id)
+cat(sprintf("BP universe: %d of %d universe genes carry >=1 BP term; %d BP terms present\n",
+            length(go_univ), length(universe), uniqueN(bp$go_id)))
+sz <- bp[, .(n_universe=uniqueN(gene_id)), by=go_id]
+testable <- sz[n_universe >= 10 & n_universe <= 2000, go_id]
+cat(sprintf("testable BP terms (10-2000 universe genes): %d\n", length(testable)))
+
+enrich <- function(core_genes, direction) {
+  k <- length(intersect(core_genes, go_univ))
+  N <- length(go_univ)
+  b <- bp[go_id %in% testable]
+  res <- b[, {
+    gg <- unique(gene_id); m <- length(gg)
+    hit <- intersect(gg, core_genes)
+    q <- length(hit)
+    .(n_core=q, n_universe=m, expected=k*m/N,
+      fold_enrichment=ifelse(k>0 && m>0, (q/k)/(m/N), NA_real_),
+      p_value=phyper(q-1, m, N-m, k, lower.tail=FALSE),
+      core_genes=paste(sort(hit), collapse=","))
+  }, by=go_id]
+  res[, fdr := p.adjust(p_value, method="BH")]
+  res <- merge(res, gt[, .(go_id, name)], by="go_id", all.x=TRUE)
+  setorder(res, p_value, -fold_enrichment)
+  setcolorder(res, c("go_id","name","n_core","n_universe","expected","fold_enrichment","p_value","fdr","core_genes"))
+  fwrite(res, file.path(OUT,"go",paste0("go_enrichment_",direction,".tsv")), sep="\t")
+  cat(sprintf("\nGO %s: core=%d, of which %d annotated in the BP universe (k=%d, N=%d); terms tested=%d; FDR<0.05: %d\n",
+              direction, length(core_genes), k, k, N, nrow(res), sum(res$fdr < 0.05)))
+  print(res[1:10, .(go_id, name, n_core, n_universe, expected=round(expected,2),
+                    fold=round(fold_enrichment,2), p_value=signif(p_value,3), fdr=signif(fdr,3))])
+  res
+}
+eu <- enrich(core_up, "up"); ed <- enrich(core_dn, "down")
+saveRDS(list(up=up, dn=dn, core_up=core_up, core_dn=core_dn, upset=upset_dt,
+             setsize=setsize, eu=eu, ed=ed, universe=universe, projects=PROJECTS),
+        file.path(WORK,"step5_objects.rds"))
+cat("\nDONE\n")

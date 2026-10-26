@@ -43,42 +43,60 @@
      width="38.682613"
      height="24.940104"
      x="-541.1618"
-     y="564.86908" />
+     y="564.86908"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
   <rect
      style="opacity:0.7;fill:#e69f00;fill-opacity:1;stroke:none;stroke-width:14.7366;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
      id="rect1379"
      width="38.682613"
      height="24.940104"
      x="-139.00313"
-     y="597.39325" />
+     y="597.39325"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
   <rect
      style="opacity:0.7;fill:#009e73;fill-opacity:1;stroke:none;stroke-width:14.7366;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
      id="rect1381"
      width="38.682613"
      height="24.940104"
      x="-541.1618"
-     y="597.39325" />
+     y="597.39325"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
   <rect
      style="opacity:0.7;fill:#cc79a7;fill-opacity:1;stroke:none;stroke-width:14.7366;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
      id="rect1383"
      width="38.682613"
      height="24.940104"
      x="-139.00311"
-     y="564.86908" />
+     y="564.86908"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
   <rect
      style="opacity:0.7;fill:#d55e00;fill-opacity:1;stroke:none;stroke-width:14.7366;stroke-linecap:round;stroke-linejoin:round;stop-color:#000000"
      id="rect1385"
      width="38.682613"
      height="24.940104"
      x="300.71341"
-     y="564.86908" />
+     y="564.86908"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300" />
   <text
      xml:space="preserve"
      style="font-size:17.7305px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:0.443263"
      x="-540.44818"
      y="536.95465"
      id="text4280"
-     transform="scale(0.92112838,1.085625)"><tspan
+     transform="scale(0.92112838,1.085625)"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan4278"
        x="-540.44818"
@@ -90,7 +108,10 @@
      x="-103.85467"
      y="568.16888"
      id="text12094"
-     transform="scale(0.92112838,1.085625)"><tspan
+     transform="scale(0.92112838,1.085625)"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan12092"
        x="-103.85467"
@@ -102,7 +123,10 @@
      x="-540.44818"
      y="566.80542"
      id="text12098"
-     transform="scale(0.92112838,1.085625)"><tspan
+     transform="scale(0.92112838,1.085625)"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan12096"
        x="-540.44818"
@@ -114,7 +138,10 @@
      x="-103.79405"
      y="538.21008"
      id="text12102"
-     transform="scale(0.92112838,1.085625)"><tspan
+     transform="scale(0.92112838,1.085625)"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan12100"
        x="-103.79405"
@@ -126,7 +153,10 @@
      x="374.72464"
      y="538.21008"
      id="text12106"
-     transform="scale(0.92112838,1.085625)"><tspan
+     transform="scale(0.92112838,1.085625)"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300"><tspan
        sodipodi:role="line"
        id="tspan12104"
        x="374.72464"
@@ -134,7 +164,10 @@
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-family:'Go Medium';-inkscape-font-specification:'Go Medium,  Medium';stroke-width:0.443263">Plant Trait Ontology (TO)</tspan></text>
   <g
      id="g1523"
-     transform="translate(-0.20884737,0.86279726)">
+     transform="translate(-0.20884737,0.86279726)"
+     inkscape:export-filename="/home/matheus/Documents/ESALQ/scripts-databases/figures/graph_r2.png"
+     inkscape:export-xdpi="300"
+     inkscape:export-ydpi="300">
     <g
        id="edges-3">
       <path

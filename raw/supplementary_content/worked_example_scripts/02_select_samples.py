@@ -1,0 +1,319 @@
+#!/usr/bin/env python3
+"""
+Step 2 of the Comment-13 worked example: build the sample sheet for a
+leaf drought-vs-control contrast from the Sweet Recycler RNA export,
+and emit the Step-0 design audit that justifies every inclusion and
+every exclusion.
+
+Plain Python standard library only (no pandas). Run with:
+
+    /usr/bin/python3 -I scripts/02_select_samples.py
+
+Inputs  : the released metadata CSV + the run-level QC table.
+Outputs : out/samples_final.tsv, out/design_audit.tsv,
+          out/step0_crosstab.tsv, out/download_manifest.tsv
+
+Selection logic, in order:
+  1. read the metadata CSV
+  2. normalize the two ontology columns (split on ',', strip tokens, set)
+  3. keep leaf (PO:0025034) runs whose treatment set contains
+     PECO:0007404 (water deficit -> "drought") or PECO:0001062 ("control")
+  4. join run-level QC on `run`, keep qc_pass == "PASS"
+  5. collapse runs to LIBRARIES (see library_id) and keep BioProjects with
+     >= 3 distinct PASS libraries in BOTH arms.  Runs are NOT biological
+     replicates: PRJNA628529 deposits every library twice, once per flow-cell
+     lane, each lane under its own SRX, so its 4 control / 6 drought runs are
+     really 2 control / 3 drought plants.  Counting runs would admit it.
+  6. drop BioProjects where genotype is perfectly aliased with the arm
+  7. emit the sample sheet
+"""
+
+import csv
+import os
+import re
+import sys
+from collections import OrderedDict, defaultdict
+
+# ---------------------------------------------------------------- constants
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT_DIR = os.path.join(ROOT, "out")
+
+METADATA_CSV = "/home/jorge/sweet_recycler_fixes/sweet_recycler_RNA.csv"
+QC_TSV = ("/home/jorge/sweet_recycler_fixes/2_comment/qc/tables/"
+          "SupplementaryTable5_run_level_qc.tsv")
+ARCHIVE_DIR = "/mnt/hd02/sb100/sugarcane/rna/matrices"
+
+TISSUE_LEAF = "PO:0025034"          # Plant Ontology: leaf
+TREAT_DROUGHT = "PECO:0007404"      # water deficit regimen
+TREAT_CONTROL = "PECO:0001062"      # control (no treatment)
+
+MIN_PER_ARM = 3          # counted in LIBRARIES, not runs
+
+# trailing flow-cell lane suffix, e.g. '201_L6' and '201_L7' are one library
+LANE_SUFFIX = re.compile(r"_L\d+$")
+
+
+# ------------------------------------------------------------------ helpers
+def ontology_set(value):
+    """Normalize an ontology cell into a set of trimmed term ids.
+
+    THIS NORMALIZATION IS MANDATORY, NOT COSMETIC.  In the released CSV the
+    control value is ' PECO:0001062' -- with a LEADING SPACE -- in 190 of the
+    228 rows that carry it; only 38 rows have the bare id.  A strict
+    `cell == 'PECO:0001062'` test therefore silently drops those 190 runs and
+    makes every drought study look as if it had no control arm at all.
+    Cells can also hold several comma-separated terms, e.g.
+    'PECO:0007357,PECO:0007404'.  So: split on ',', strip each token, then
+    test set membership -- never string equality on the raw cell.
+    """
+    return {tok.strip() for tok in (value or "").split(",") if tok.strip()}
+
+
+def write_tsv(path, header, rows):
+    with open(path, "w", encoding="utf-8", newline="") as fh:
+        w = csv.writer(fh, delimiter="\t", lineterminator="\n")
+        w.writerow(header)
+        w.writerows(rows)
+    print("wrote %-28s %d data rows" % (os.path.basename(path), len(rows)))
+
+
+def library_id(row):
+    """Identity of the biological library a run came from.
+
+    Neither Run nor BioSample is reliable on its own:
+
+      * PRJNA628529 sequences each library on two lanes and deposits each lane
+        as its own Run AND its own Experiment ('201_L6', '201_L7'), so runs
+        over-count plants two-fold.
+      * PRJNA1127307 registers ONE BioSample per genotype and hangs eight
+        distinct libraries off it ('WT.Control1' ... 'WT.Drought4'), so
+        BioSamples under-count plants eight-fold.
+
+    `Library Name` with any trailing lane suffix removed resolves both.  Where
+    it is blank we fall back to the Run, which is the conservative choice.
+    """
+    name = (row.get("Library Name") or "").strip()
+    if not name:
+        return row["Run"]
+    return LANE_SUFFIX.sub("", name)
+
+
+def genotype_of(row):
+    """Genotype label, with a stable placeholder for blank cells."""
+    g = (row.get("genotype") or "").strip()
+    return g if g else "NA"
+
+
+def crosstab(runs):
+    """{genotype: [n_drought, n_control]} for a list of selected run dicts."""
+    tab = OrderedDict()
+    for r in sorted(runs, key=lambda x: (x["genotype"], x["run"])):
+        slot = tab.setdefault(r["genotype"], [0, 0])
+        slot[0 if r["arm"] == "drought" else 1] += 1
+    return tab
+
+
+def aliased(tab):
+    """True if >1 genotype and no genotype occurs in both arms."""
+    if len(tab) < 2:
+        return False
+    return not any(d > 0 and c > 0 for d, c in tab.values())
+
+
+def estimable(tab):
+    """True if `~ treatment + genotype` is fittable: >=2 genotype levels and
+    at least one genotype present in both arms."""
+    if len(tab) < 2:
+        return False
+    return any(d > 0 and c > 0 for d, c in tab.values())
+
+
+# --------------------------------------------------------------------- main
+def main():
+    os.makedirs(OUT_DIR, exist_ok=True)
+
+    # -- 1. metadata ------------------------------------------------------
+    with open(METADATA_CSV, encoding="utf-8-sig", newline="") as fh:
+        meta = list(csv.DictReader(fh))
+    print("metadata rows read: %d" % len(meta))
+
+    # -- 2./3. leaf + drought-or-control ----------------------------------
+    candidates = []
+    for row in meta:
+        tissue = ontology_set(row["tissue_ontology"])
+        treat = ontology_set(row["treatment_ontology"])
+        if TISSUE_LEAF not in tissue:
+            continue
+        if TREAT_DROUGHT in treat:
+            arm = "drought"
+        elif TREAT_CONTROL in treat:
+            arm = "control"
+        else:
+            continue
+        candidates.append({
+            "run": row["Run"],
+            "experiment": row["Experiment"],
+            "bioproject": row["BioProject"],
+            "arm": arm,
+            "genotype": genotype_of(row),
+            "library": library_id(row),
+            "biosample": (row.get("BioSample") or "").strip(),
+        })
+    print("leaf drought-or-control candidate runs: %d" % len(candidates))
+
+    # n_leaf_total: every leaf run of a candidate project, whatever the treatment
+    cand_projects = {c["bioproject"] for c in candidates}
+    n_leaf_total = defaultdict(int)
+    for row in meta:
+        bp = row["BioProject"]
+        if bp in cand_projects and TISSUE_LEAF in ontology_set(row["tissue_ontology"]):
+            n_leaf_total[bp] += 1
+
+    # -- 4. join QC and keep PASS -----------------------------------------
+    with open(QC_TSV, encoding="utf-8-sig", newline="") as fh:
+        qc = {r["run"]: r for r in csv.DictReader(fh, delimiter="\t")}
+    print("qc rows read: %d" % len(qc))
+
+    missing_qc = [c["run"] for c in candidates if c["run"] not in qc]
+    if missing_qc:
+        sys.stderr.write("WARNING: %d candidate runs absent from the QC table: %s\n"
+                         % (len(missing_qc), ",".join(sorted(missing_qc))))
+
+    passing = []
+    for c in candidates:
+        q = qc.get(c["run"])
+        if q is None or q["qc_pass"] != "PASS":
+            continue
+        c = dict(c)
+        c["instrument"] = q["instrument"]
+        c["qc_pass"] = q["qc_pass"]
+        c["qc_flags"] = q["qc_flags"]
+        passing.append(c)
+    print("candidate runs with qc_pass == PASS: %d" % len(passing))
+
+    by_proj_raw = defaultdict(list)
+    for c in candidates:
+        by_proj_raw[c["bioproject"]].append(c)
+    by_proj_pass = defaultdict(list)
+    for c in passing:
+        by_proj_pass[c["bioproject"]].append(c)
+
+    # -- 5./6. per-project decisions --------------------------------------
+    audit, crosstab_rows, selected = [], [], []
+    for bp in sorted(by_proj_raw):
+        raw = by_proj_raw[bp]
+        keep = by_proj_pass.get(bp, [])
+        nd_raw = sum(1 for r in raw if r["arm"] == "drought")
+        nc_raw = len(raw) - nd_raw
+        nd = sum(1 for r in keep if r["arm"] == "drought")
+        nc = len(keep) - nd
+        # the counts that actually decide: distinct libraries, not runs
+        nd_lib = len({r["library"] for r in keep if r["arm"] == "drought"})
+        nc_lib = len({r["library"] for r in keep if r["arm"] == "control"})
+        lane_split = (nd_lib + nc_lib) < len(keep)
+        tab = crosstab(keep)
+        n_geno = len(tab)
+
+        if nd_lib < MIN_PER_ARM or nc_lib < MIN_PER_ARM:
+            alias_flag = ""           # aliasing is not the deciding question here
+            if lane_split and nd >= MIN_PER_ARM and nc >= MIN_PER_ARM:
+                decision = "excluded_pseudoreplicated"
+                reason = ("%d drought / %d control runs pass QC, but they come "
+                          "from only %d drought / %d control distinct libraries "
+                          "(each library is split across flow-cell lanes and each "
+                          "lane deposited under its own Experiment accession); "
+                          "fewer than %d biological replicates per arm"
+                          % (nd, nc, nd_lib, nc_lib, MIN_PER_ARM))
+            else:
+                decision = "excluded_too_few"
+                reason = ("only %d drought / %d control libraries pass QC; "
+                          "fewer than %d per arm, no within-study contrast"
+                          % (nd_lib, nc_lib, MIN_PER_ARM))
+        else:
+            # aliasing is the deciding question only for projects that got this far
+            for g, (d, c_) in tab.items():
+                crosstab_rows.append([bp, g, d, c_])
+            if aliased(tab):
+                decision = "excluded_aliased"
+                alias_flag = "yes"
+                detail = "; ".join("%s %dd/%dc" % (g, d, c_) for g, (d, c_) in tab.items())
+                reason = ("genotype perfectly aliased with treatment arm "
+                          "(%s): no genotype spans both arms, so the drought "
+                          "coefficient is not identifiable and "
+                          "~ treatment + genotype is rank-deficient" % detail)
+            else:
+                decision = "included"
+                alias_flag = "no"
+                reason = ("%d drought / %d control PASS libraries, %d genotype level(s); "
+                          "%s" % (nd_lib, nc_lib, n_geno,
+                                  "genotype shares levels across arms, "
+                                  "~ treatment + genotype estimable" if estimable(tab)
+                                  else "single genotype, model is ~ treatment"))
+                est = "yes" if estimable(tab) else "no"
+                for r in sorted(keep, key=lambda x: x["run"]):
+                    r["genotype_estimable"] = est
+                    selected.append(r)
+
+        audit.append([bp, n_leaf_total[bp], nd_raw, nc_raw, nd, nc,
+                      nd_lib, nc_lib, "yes" if lane_split else "no",
+                      n_geno, alias_flag, decision, reason])
+
+    # -- 7. emit ----------------------------------------------------------
+    write_tsv(os.path.join(OUT_DIR, "samples_final.tsv"),
+              ["run", "experiment", "bioproject", "arm", "genotype", "library",
+               "biosample", "instrument", "qc_pass", "qc_flags",
+               "genotype_estimable"],
+              [[r["run"], r["experiment"], r["bioproject"], r["arm"],
+                r["genotype"], r["library"], r["biosample"], r["instrument"],
+                r["qc_pass"], r["qc_flags"], r["genotype_estimable"]]
+               for r in sorted(selected, key=lambda x: (x["bioproject"], x["run"]))])
+
+    write_tsv(os.path.join(OUT_DIR, "design_audit.tsv"),
+              ["bioproject", "n_leaf_total", "n_drought_raw", "n_control_raw",
+               "n_drought_pass", "n_control_pass", "n_drought_lib",
+               "n_control_lib", "lane_split", "n_genotypes",
+               "genotype_aliased", "decision", "reason"],
+              audit)
+
+    write_tsv(os.path.join(OUT_DIR, "step0_crosstab.tsv"),
+              ["bioproject", "genotype", "n_drought", "n_control"],
+              crosstab_rows)
+
+    total_bytes, n_exist = 0, 0
+    manifest = []
+    for r in sorted(selected, key=lambda x: (x["bioproject"], x["run"])):
+        path = os.path.join(ARCHIVE_DIR, r["run"] + ".tar.xz")
+        try:
+            size = os.path.getsize(path)
+            exists = "yes"
+            n_exist += 1
+            total_bytes += size
+        except OSError:
+            size, exists = 0, "no"
+        manifest.append([r["run"], r["experiment"], r["bioproject"], r["arm"],
+                         path, size, exists])
+    write_tsv(os.path.join(OUT_DIR, "download_manifest.tsv"),
+              ["run", "experiment", "bioproject", "arm", "archive_path",
+               "archive_bytes", "exists"], manifest)
+
+    # -- summary ----------------------------------------------------------
+    nd = sum(1 for r in selected if r["arm"] == "drought")
+    print("\nSELECTED: %d runs, %d BioProjects, %d drought / %d control"
+          % (len(selected), len({r["bioproject"] for r in selected}),
+             nd, len(selected) - nd))
+    for bp in sorted({r["bioproject"] for r in selected}):
+        rs = [r for r in selected if r["bioproject"] == bp]
+        d = sum(1 for r in rs if r["arm"] == "drought")
+        print("  %-14s %2d PASS (%2dd/%2dc)  %d genotype(s)  %-22s estimable=%s"
+              % (bp, len(rs), d, len(rs) - d,
+                 len({r["genotype"] for r in rs}),
+                 "|".join(sorted({r["instrument"] for r in rs})),
+                 rs[0]["genotype_estimable"]))
+    dup = len(selected) - len({r["experiment"] for r in selected})
+    print("duplicate experiment accessions among selected: %d" % dup)
+    print("archives present: %d/%d, total %.2f GB"
+          % (n_exist, len(selected), total_bytes / 1e9))
+
+
+if __name__ == "__main__":
+    main()
